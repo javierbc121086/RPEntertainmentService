@@ -1,8 +1,8 @@
 //
-//  RPEMovieService.swift
+//  RPETvService.swift
 //  RPEntertainmentService
 //
-//  Created by Javier Bolaños on 9/8/19.
+//  Created by Javier Bolaños on 9/9/19.
 //  Copyright © 2019 gipsyhub. All rights reserved.
 //
 
@@ -14,23 +14,23 @@ import GNSwissRazor
  
  ## Funcionalidad ##
  **dataResponseService::response** es responsable de proveer información
- valida si la peticion al webservice **Movies**, es satisfactoria
+ valida si la peticion al webservice **TV**, es satisfactoria
  */
-public protocol RPEMovieServiceDelegate: RPEBaseServiceDelegate {
-    func dataResponseService(response: RPEMovieResponseEntity)
+public protocol RPETvServiceDelegate: RPEBaseServiceDelegate {
+    func dataResponseService(response: RPETvResponseEntity)
 }
 
 /**
- Clase manejadora que se encarga de heredar y procesar las respuestas del ámbito Movies
+ Clase manejadora que se encarga de heredar y procesar las respuestas del ámbito TV
  */
-class RPEMovieService: RPEBaseService {
+class RPETvService: RPEBaseService {
     
     /**
-     Propiedad encargada de castear el protocolo base al comportamiento del ámbito Movies,
+     Propiedad encargada de castear el protocolo base al comportamiento del ámbito TV,
      extendiendo la informacion que podemos recuperar del webservice
      */
-    private var loginServiceDelegate: RPEMovieServiceDelegate? {
-        return self.delegate as? RPEMovieServiceDelegate
+    private var loginServiceDelegate: RPETvServiceDelegate? {
+        return self.delegate as? RPETvServiceDelegate
     }
     
     /**
@@ -46,7 +46,7 @@ class RPEMovieService: RPEBaseService {
             decoder.keyDecodingStrategy = .convertFromSnakeCase
             
             if let theJSONData = try? JSONSerialization.data(withJSONObject: rawDic, options: []) {
-                let decoded = try decoder.decode(RPEMovieResponseEntity.self, from: theJSONData)
+                let decoded = try decoder.decode(RPETvResponseEntity.self, from: theJSONData)
                 self.loginServiceDelegate?.dataResponseService(response: decoded)
             }
         }

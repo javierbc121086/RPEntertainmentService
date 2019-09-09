@@ -1,12 +1,12 @@
 //
-//  RPETvShowEntity.swift
+//  RPETvEntity.swift
 //  RPEntertainmentService
 //
 //  Created by Javier Bolaños on 9/9/19.
 //  Copyright © 2019 gipsyhub. All rights reserved.
 //
 
-public struct  RPETvShowEntity: Codable {
+public struct  RPETvEntity: Codable {
     public var originalName: String
     public var genreIds: [Int]
     public var name: String
