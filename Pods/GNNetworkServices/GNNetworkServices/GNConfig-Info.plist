@@ -28,9 +28,9 @@
 		<key>production</key>
 		<dict>
 			<key>url</key>
-			<string></string>
+			<string>https://api.themoviedb.org</string>
 			<key>enabled</key>
-			<false/>
+			<true/>
 		</dict>
 	</dict>
 	<key>BundleIdentifierJsonMock</key>

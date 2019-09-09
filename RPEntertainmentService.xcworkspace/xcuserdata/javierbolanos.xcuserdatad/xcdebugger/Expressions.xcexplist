@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VariablesViewState
+   version = "1.0">
+   <ContextStates>
+      <ContextState
+         contextName = "RPETvShowService.parseJson(uniqueIdentifierFlow:rawDic:):RPETvShowService.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "error.localizedDescription">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "RPEMovieServiceTest.dataResponseService(response:):RPEMovieServiceTest.swift">
+      </ContextState>
+      <ContextState
+         contextName = "RPETvShowServiceTest.requestFailWithError(error:):RPETvShowServiceTest.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "error.localizedDescription">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "RPEMovieService.parseJson(uniqueIdentifierFlow:rawDic:):RPEMovieService.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "error.localizedDescription">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+   </ContextStates>
+</VariablesViewState>
