@@ -1,0 +1,27 @@
+PODS:
+  - GNNetworkServices (0.1.2.0):
+    - GNSwissRazor
+    - ReachabilitySwift (~> 4.1.0)
+  - GNSwissRazor (0.1.1.0)
+  - ReachabilitySwift (4.1.0)
+
+DEPENDENCIES:
+  - GNNetworkServices
+  - GNSwissRazor
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - ReachabilitySwift
+  https://gitlab.com/GonetGrupo/iOS/Dependencies/Spects/GNNetworkServicesSpec.git:
+    - GNNetworkServices
+  https://gitlab.com/GonetGrupo/iOS/Dependencies/Spects/GNSwissRazorSpec.git:
+    - GNSwissRazor
+
+SPEC CHECKSUMS:
+  GNNetworkServices: f0789fa2e967571a73f92c5d666d8985143af40f
+  GNSwissRazor: 81fafbc345360d3f4c4e30bf042964950f7ed88d
+  ReachabilitySwift: 6849231cd4e06559f3b9ef4a97a0a0f96d41e09f
+
+PODFILE CHECKSUM: f553114941748d0362d44a93c5c77ccd46492b07
+
+COCOAPODS: 1.7.5

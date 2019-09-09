@@ -3,13 +3,19 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1019B1736320177C0A258DFF /* Pods_RPEntertainmentServiceTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57EF471E05F5883B818349B1 /* Pods_RPEntertainmentServiceTests.framework */; };
 		12B993C82325CAAF006A7038 /* RPEntertainmentService.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 12B993BE2325CAAF006A7038 /* RPEntertainmentService.framework */; };
 		12B993CD2325CAAF006A7038 /* RPEntertainmentServiceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12B993CC2325CAAF006A7038 /* RPEntertainmentServiceTests.swift */; };
 		12B993CF2325CAAF006A7038 /* RPEntertainmentService.h in Headers */ = {isa = PBXBuildFile; fileRef = 12B993C12325CAAF006A7038 /* RPEntertainmentService.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		12ED73832325D31300163467 /* RPEServiceConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12ED73822325D31300163467 /* RPEServiceConfig.swift */; };
+		12ED73852325D3FC00163467 /* RPEHttpRequestType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12ED73842325D3FC00163467 /* RPEHttpRequestType.swift */; };
+		12ED73872325D44900163467 /* RPEBaseService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12ED73862325D44900163467 /* RPEBaseService.swift */; };
+		12ED73892325D49500163467 /* RPELoginService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12ED73882325D49500163467 /* RPELoginService.swift */; };
+		74FDB6E02AE8F185E5AE495A /* Pods_RPEntertainmentService.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE25D20EA5838B84E9B04525 /* Pods_RPEntertainmentService.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,6 +35,16 @@
 		12B993C72325CAAF006A7038 /* RPEntertainmentServiceTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RPEntertainmentServiceTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		12B993CC2325CAAF006A7038 /* RPEntertainmentServiceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RPEntertainmentServiceTests.swift; sourceTree = "<group>"; };
 		12B993CE2325CAAF006A7038 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		12ED73822325D31300163467 /* RPEServiceConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RPEServiceConfig.swift; sourceTree = "<group>"; };
+		12ED73842325D3FC00163467 /* RPEHttpRequestType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RPEHttpRequestType.swift; sourceTree = "<group>"; };
+		12ED73862325D44900163467 /* RPEBaseService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RPEBaseService.swift; sourceTree = "<group>"; };
+		12ED73882325D49500163467 /* RPELoginService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RPELoginService.swift; sourceTree = "<group>"; };
+		200AFC6CE1E9198602FC4E63 /* Pods-RPEntertainmentServiceTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RPEntertainmentServiceTests.debug.xcconfig"; path = "Target Support Files/Pods-RPEntertainmentServiceTests/Pods-RPEntertainmentServiceTests.debug.xcconfig"; sourceTree = "<group>"; };
+		57EF471E05F5883B818349B1 /* Pods_RPEntertainmentServiceTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RPEntertainmentServiceTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		702F613D9994BDDD7D589C40 /* Pods-RPEntertainmentService.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RPEntertainmentService.debug.xcconfig"; path = "Target Support Files/Pods-RPEntertainmentService/Pods-RPEntertainmentService.debug.xcconfig"; sourceTree = "<group>"; };
+		85B59A60AD8ADF192E8DE5C3 /* Pods-RPEntertainmentService.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RPEntertainmentService.release.xcconfig"; path = "Target Support Files/Pods-RPEntertainmentService/Pods-RPEntertainmentService.release.xcconfig"; sourceTree = "<group>"; };
+		EE25D20EA5838B84E9B04525 /* Pods_RPEntertainmentService.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RPEntertainmentService.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FDFEF3E570433AFB4F21C00A /* Pods-RPEntertainmentServiceTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RPEntertainmentServiceTests.release.xcconfig"; path = "Target Support Files/Pods-RPEntertainmentServiceTests/Pods-RPEntertainmentServiceTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,6 +52,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				74FDB6E02AE8F185E5AE495A /* Pods_RPEntertainmentService.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -44,6 +61,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				12B993C82325CAAF006A7038 /* RPEntertainmentService.framework in Frameworks */,
+				1019B1736320177C0A258DFF /* Pods_RPEntertainmentServiceTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -56,6 +74,8 @@
 				12B993C02325CAAF006A7038 /* RPEntertainmentService */,
 				12B993CB2325CAAF006A7038 /* RPEntertainmentServiceTests */,
 				12B993BF2325CAAF006A7038 /* Products */,
+				5BC8F1ACC77F39D990D478B7 /* Pods */,
+				C97594D6E996741C01E661D4 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -71,6 +91,9 @@
 		12B993C02325CAAF006A7038 /* RPEntertainmentService */ = {
 			isa = PBXGroup;
 			children = (
+				12ED737F2325D2B500163467 /* Config */,
+				12ED73802325D2C000163467 /* Type */,
+				12ED73812325D2C900163467 /* Implement */,
 				12B993C12325CAAF006A7038 /* RPEntertainmentService.h */,
 				12B993C22325CAAF006A7038 /* Info.plist */,
 			);
@@ -84,6 +107,51 @@
 				12B993CE2325CAAF006A7038 /* Info.plist */,
 			);
 			path = RPEntertainmentServiceTests;
+			sourceTree = "<group>";
+		};
+		12ED737F2325D2B500163467 /* Config */ = {
+			isa = PBXGroup;
+			children = (
+				12ED73822325D31300163467 /* RPEServiceConfig.swift */,
+			);
+			path = Config;
+			sourceTree = "<group>";
+		};
+		12ED73802325D2C000163467 /* Type */ = {
+			isa = PBXGroup;
+			children = (
+				12ED73842325D3FC00163467 /* RPEHttpRequestType.swift */,
+			);
+			path = Type;
+			sourceTree = "<group>";
+		};
+		12ED73812325D2C900163467 /* Implement */ = {
+			isa = PBXGroup;
+			children = (
+				12ED73862325D44900163467 /* RPEBaseService.swift */,
+				12ED73882325D49500163467 /* RPELoginService.swift */,
+			);
+			path = Implement;
+			sourceTree = "<group>";
+		};
+		5BC8F1ACC77F39D990D478B7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				702F613D9994BDDD7D589C40 /* Pods-RPEntertainmentService.debug.xcconfig */,
+				85B59A60AD8ADF192E8DE5C3 /* Pods-RPEntertainmentService.release.xcconfig */,
+				200AFC6CE1E9198602FC4E63 /* Pods-RPEntertainmentServiceTests.debug.xcconfig */,
+				FDFEF3E570433AFB4F21C00A /* Pods-RPEntertainmentServiceTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		C97594D6E996741C01E661D4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EE25D20EA5838B84E9B04525 /* Pods_RPEntertainmentService.framework */,
+				57EF471E05F5883B818349B1 /* Pods_RPEntertainmentServiceTests.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -104,6 +172,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 12B993D22325CAAF006A7038 /* Build configuration list for PBXNativeTarget "RPEntertainmentService" */;
 			buildPhases = (
+				250466A211FEDD6600A90339 /* [CP] Check Pods Manifest.lock */,
 				12B993B92325CAAF006A7038 /* Headers */,
 				12B993BA2325CAAF006A7038 /* Sources */,
 				12B993BB2325CAAF006A7038 /* Frameworks */,
@@ -122,9 +191,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 12B993D52325CAAF006A7038 /* Build configuration list for PBXNativeTarget "RPEntertainmentServiceTests" */;
 			buildPhases = (
+				598C420B812B9A3B65B67FA7 /* [CP] Check Pods Manifest.lock */,
 				12B993C32325CAAF006A7038 /* Sources */,
 				12B993C42325CAAF006A7038 /* Frameworks */,
 				12B993C52325CAAF006A7038 /* Resources */,
+				F0F8601A8964AEC3B7ED1209 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -148,6 +219,7 @@
 				TargetAttributes = {
 					12B993BD2325CAAF006A7038 = {
 						CreatedOnToolsVersion = 10.3;
+						LastSwiftMigration = 1030;
 					};
 					12B993C62325CAAF006A7038 = {
 						CreatedOnToolsVersion = 10.3;
@@ -189,11 +261,79 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		250466A211FEDD6600A90339 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RPEntertainmentService-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		598C420B812B9A3B65B67FA7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RPEntertainmentServiceTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F0F8601A8964AEC3B7ED1209 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-RPEntertainmentServiceTests/Pods-RPEntertainmentServiceTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-RPEntertainmentServiceTests/Pods-RPEntertainmentServiceTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-RPEntertainmentServiceTests/Pods-RPEntertainmentServiceTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		12B993BA2325CAAF006A7038 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				12ED73832325D31300163467 /* RPEServiceConfig.swift in Sources */,
+				12ED73892325D49500163467 /* RPELoginService.swift in Sources */,
+				12ED73852325D3FC00163467 /* RPEHttpRequestType.swift in Sources */,
+				12ED73872325D44900163467 /* RPEBaseService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -340,7 +480,9 @@
 		};
 		12B993D32325CAAF006A7038 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 702F613D9994BDDD7D589C40 /* Pods-RPEntertainmentService.debug.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
@@ -359,6 +501,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = mx.com.gipsyhub.RPEntertainmentService;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
@@ -366,7 +509,9 @@
 		};
 		12B993D42325CAAF006A7038 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 85B59A60AD8ADF192E8DE5C3 /* Pods-RPEntertainmentService.release.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
@@ -392,7 +537,9 @@
 		};
 		12B993D62325CAAF006A7038 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 200AFC6CE1E9198602FC4E63 /* Pods-RPEntertainmentServiceTests.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 6A5X7JBF46;
 				INFOPLIST_FILE = RPEntertainmentServiceTests/Info.plist;
@@ -410,7 +557,9 @@
 		};
 		12B993D72325CAAF006A7038 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FDFEF3E570433AFB4F21C00A /* Pods-RPEntertainmentServiceTests.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 6A5X7JBF46;
 				INFOPLIST_FILE = RPEntertainmentServiceTests/Info.plist;
