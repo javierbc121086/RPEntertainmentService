@@ -4,12 +4,16 @@ PODS:
     - ReachabilitySwift (~> 4.1.0)
   - GNSwissRazor (0.1.1.0)
   - ReachabilitySwift (4.1.0)
+  - RPEntertainmentDomain (0.0.2)
 
 DEPENDENCIES:
   - GNNetworkServices
   - GNSwissRazor
+  - RPEntertainmentDomain
 
 SPEC REPOS:
+  "git@github.com:javierbc121086/RPEntertainmentDomainSpec.git":
+    - RPEntertainmentDomain
   https://github.com/cocoapods/specs.git:
     - ReachabilitySwift
   https://gitlab.com/GonetGrupo/iOS/Dependencies/Spects/GNNetworkServicesSpec.git:
@@ -21,7 +25,8 @@ SPEC CHECKSUMS:
   GNNetworkServices: f0789fa2e967571a73f92c5d666d8985143af40f
   GNSwissRazor: 81fafbc345360d3f4c4e30bf042964950f7ed88d
   ReachabilitySwift: 6849231cd4e06559f3b9ef4a97a0a0f96d41e09f
+  RPEntertainmentDomain: d7b3086cd03ed4e4e3d8dbc6ab6bc1b25f6f931b
 
-PODFILE CHECKSUM: f553114941748d0362d44a93c5c77ccd46492b07
+PODFILE CHECKSUM: d87d214c28cb850b8f5a97aa1bbe95981fbc2798
 
 COCOAPODS: 1.7.5

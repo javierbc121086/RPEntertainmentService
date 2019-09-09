@@ -1,4 +1,5 @@
 ${PODS_ROOT}/Target Support Files/Pods-RPEntertainmentServiceTests/Pods-RPEntertainmentServiceTests-frameworks.sh
 ${BUILT_PRODUCTS_DIR}/GNNetworkServices/GNNetworkServices.framework
 ${BUILT_PRODUCTS_DIR}/GNSwissRazor/GNSwissRazor.framework
+${BUILT_PRODUCTS_DIR}/RPEntertainmentDomain/RPEntertainmentDomain.framework
 ${BUILT_PRODUCTS_DIR}/ReachabilitySwift/Reachability.framework

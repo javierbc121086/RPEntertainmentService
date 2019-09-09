@@ -7,6 +7,7 @@
 //
 
 import GNSwissRazor
+import RPEntertainmentDomain
 
 /**
  Protocolo encargado de extender el la funcionalidad

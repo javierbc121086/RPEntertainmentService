@@ -163,11 +163,13 @@ strip_invalid_archs() {
 if [[ "$CONFIGURATION" == "Debug" ]]; then
   install_framework "${BUILT_PRODUCTS_DIR}/GNNetworkServices/GNNetworkServices.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/GNSwissRazor/GNSwissRazor.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/RPEntertainmentDomain/RPEntertainmentDomain.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/ReachabilitySwift/Reachability.framework"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
   install_framework "${BUILT_PRODUCTS_DIR}/GNNetworkServices/GNNetworkServices.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/GNSwissRazor/GNSwissRazor.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/RPEntertainmentDomain/RPEntertainmentDomain.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/ReachabilitySwift/Reachability.framework"
 fi
 if [ "${COCOAPODS_PARALLEL_CODE_SIGN}" == "true" ]; then

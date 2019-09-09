@@ -8,6 +8,7 @@
 
 import XCTest
 import GNNetworkServices
+import RPEntertainmentDomain
 
 @testable import RPEntertainmentService
 
