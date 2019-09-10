@@ -18,13 +18,13 @@ import RPEntertainmentDomain
  valida si la peticion al webservice **TV**, es satisfactoria
  */
 public protocol RPETvServiceDelegate: RPEBaseServiceDelegate {
-    func dataResponseService(response: RPETvResponseEntity)
+    func dataResponseService(response: RPETvResponseEntity, type: RPEHttpRequestType)
 }
 
 /**
  Clase manejadora que se encarga de heredar y procesar las respuestas del ámbito TV
  */
-class RPETvService: RPEBaseService {
+public class RPETvService: RPEBaseService {
     
     /**
      Propiedad encargada de castear el protocolo base al comportamiento del ámbito TV,
@@ -48,12 +48,22 @@ class RPETvService: RPEBaseService {
             
             if let theJSONData = try? JSONSerialization.data(withJSONObject: rawDic, options: []) {
                 let decoded = try decoder.decode(RPETvResponseEntity.self, from: theJSONData)
-                self.loginServiceDelegate?.dataResponseService(response: decoded)
+                self.loginServiceDelegate?.dataResponseService(
+                        response: decoded,
+                        type: RPEHttpRequestType(rawValue: uniqueIdentifierFlow) ?? RPEHttpRequestType.NONE
+                )
             }
         }
         catch let error {
             self.delegate?.requestFailWithError(
-                error: GNTools.MakeError(message: "RPEMovieService: Error en el formato de respuesta \(rawDic) \n \(error.localizedDescription)")
+                error: GNTools.MakeError(
+                        message: """
+                                 RPEMovieService Error: el formato de respuesta es inválido 
+                                 \(rawDic) 
+                                 \n 
+                                 \(error.localizedDescription)
+                                 """
+                )
             )
         }
     }

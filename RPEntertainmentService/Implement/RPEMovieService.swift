@@ -24,7 +24,7 @@ public protocol RPEMovieServiceDelegate: RPEBaseServiceDelegate {
 /**
  Clase manejadora que se encarga de heredar y procesar las respuestas del ámbito Movies
  */
-class RPEMovieService: RPEBaseService {
+public class RPEMovieService: RPEBaseService {
     
     /**
      Propiedad encargada de castear el protocolo base al comportamiento del ámbito Movies,

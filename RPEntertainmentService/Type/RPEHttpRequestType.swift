@@ -17,7 +17,8 @@ public enum RPEHttpRequestType: Int {
     case MOVIE_POPULAR  = 0
     case MOVIE_RATE     = 1
     case MOVIE_UPCOMING = 2
-    case TV_PUPULAR     = 3
+    case TV_POPULARITY  = 3
     case TV_RATE        = 4
     case TV_UPCOMING    = 5
+    case NONE           = 666
 }

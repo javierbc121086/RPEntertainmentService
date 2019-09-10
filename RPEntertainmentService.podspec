@@ -38,3 +38,6 @@ Pod::Spec.new do |spec|
   spec.dependency "RPEntertainmentDomain"
 
 end
+
+## Release New Pod ##
+# pod repo push RPEntertainmentServiceSpec RPEntertainmentService.podspec --allow-warnings --sources='https://github.com/CocoaPods/Specs.git,https://gitlab.com/GonetGrupo/iOS/Dependencies/Spects/GNNetworkServicesSpec.git,https://gitlab.com/GonetGrupo/iOS/Dependencies/Spects/GNSwissRazorSpec.git,git@github.com:javierbc121086/RPEntertainmentDomainSpec.git' --private --verbose

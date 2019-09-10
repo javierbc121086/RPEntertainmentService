@@ -17,22 +17,22 @@ import RPEntertainmentDomain
  */
 class RPETvServiceTest: XCTestCase, RPETvServiceDelegate {
     
-    private var _tvShowService: RPETvService?
+    private var _tvService: RPETvService?
     private var _expectation: XCTestExpectation?
     private var _isFailed = false
     
     override func setUp() {
         super.setUp()
         _isFailed = false
-        _tvShowService = RPETvService(identifierService:
+        _tvService = RPETvService(identifierService:
                                 RPEHelperTest.MockIdentifierCoreService)
-        _tvShowService?.delegate = self
+        _tvService?.delegate = self
     }
     
     override func tearDown() {
         super.tearDown()
-        _tvShowService?.removeReferenceContext()
-        _tvShowService = nil
+        _tvService?.removeReferenceContext()
+        _tvService = nil
         _expectation = nil
     }
     
@@ -49,10 +49,10 @@ class RPETvServiceTest: XCTestCase, RPETvServiceDelegate {
         let tokenUrl = String(
             format: RPEServiceConfig.tv_popular, RPELoginMock.apiToken
         )
-        _tvShowService?.httpGetRest(
+        _tvService?.httpGetRest(
             url: tokenUrl,
             extraHeaders: nil,
-            gnRequestType: RPEHttpRequestType.TV_PUPULAR.rawValue)
+            gnRequestType: RPEHttpRequestType.TV_POPULARITY.rawValue)
         
         self.waitForExpectations(timeout: GNConfigService.TimeOutInterval, handler: nil)
     }
@@ -66,7 +66,7 @@ class RPETvServiceTest: XCTestCase, RPETvServiceDelegate {
         let tokenUrl = String(
             format: RPEServiceConfig.tv_rated, RPELoginMock.apiToken
         )
-        _tvShowService?.httpGetRest(
+        _tvService?.httpGetRest(
             url: tokenUrl,
             extraHeaders: RPELoginMock.SessionHeader,
             gnRequestType: RPEHttpRequestType.TV_RATE.rawValue)
@@ -85,7 +85,7 @@ class RPETvServiceTest: XCTestCase, RPETvServiceDelegate {
             RPELoginMock.apiToken,
             RPELoginMock.dateFilter
         )
-        _tvShowService?.httpGetRest(
+        _tvService?.httpGetRest(
             url: tokenUrl,
             extraHeaders: nil,
             gnRequestType: RPEHttpRequestType.TV_UPCOMING.rawValue)
@@ -104,10 +104,10 @@ class RPETvServiceTest: XCTestCase, RPETvServiceDelegate {
         _isFailed = true
         _expectation = expectation(description: "::: Fail Get Popularity Tv")
         
-        _tvShowService?.httpGetRest(
+        _tvService?.httpGetRest(
             url: RPEServiceConfig.tv_popular,
             extraHeaders: nil,
-            gnRequestType: RPEHttpRequestType.TV_PUPULAR.rawValue)
+            gnRequestType: RPEHttpRequestType.TV_POPULARITY.rawValue)
         
         self.waitForExpectations(timeout: GNConfigService.TimeOutInterval, handler: nil)
     }
@@ -119,7 +119,7 @@ class RPETvServiceTest: XCTestCase, RPETvServiceDelegate {
         _isFailed = true
         _expectation = expectation(description: "::: Fail Get Rate Tv")
         
-        _tvShowService?.httpGetRest(
+        _tvService?.httpGetRest(
             url: RPEServiceConfig.tv_rated,
             extraHeaders: RPELoginMock.SessionHeader,
             gnRequestType: RPEHttpRequestType.TV_RATE.rawValue)
@@ -134,7 +134,7 @@ class RPETvServiceTest: XCTestCase, RPETvServiceDelegate {
         _isFailed = true
         _expectation = expectation(description: "::: Fail Get Uncoming Tv")
         
-        _tvShowService?.httpGetRest(
+        _tvService?.httpGetRest(
             url: RPEServiceConfig.tv_upcoming,
             extraHeaders: nil,
             gnRequestType: RPEHttpRequestType.TV_UPCOMING.rawValue)
@@ -149,7 +149,7 @@ class RPETvServiceTest: XCTestCase, RPETvServiceDelegate {
     /**********************
      ** RESPONSE SUCCESS **
      **********************/
-    func dataResponseService(response: RPETvResponseEntity) {
+    func dataResponseService(response: RPETvResponseEntity, type: RPEHttpRequestType) {
         _expectation?.fulfill()
         
         if _isFailed {
