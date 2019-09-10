@@ -139,7 +139,7 @@ class RPEMovieServiceTest: XCTestCase, RPEMovieServiceDelegate {
     /**********************
      ** RESPONSE SUCCESS **
      **********************/
-    func dataResponseService(response: RPEMovieResponseEntity) {
+    func dataResponseService(response: RPEMovieResponseEntity, type: RPEHttpRequestType) {
         _expectation?.fulfill()
             
         if _isFailed {
