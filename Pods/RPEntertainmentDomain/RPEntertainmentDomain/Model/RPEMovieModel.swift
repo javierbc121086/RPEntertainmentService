@@ -24,19 +24,19 @@ public struct RPEMovieModel {
     public var posterPath: String
     
     public init(id: Int,
-        popularity: Double,
-        voteCount: Int,
-        video: Bool,
-        adult: Bool,
-        originalLanguage: String,
-        originalTitle: String,
-        genreIds: [Int],
-        title: String,
-        voteAverage: Double,
-        overview: String,
-        releaseDate: String,
-        backdropPath: String,
-        posterPath: String
+                popularity: Double,
+                voteCount: Int,
+                video: Bool,
+                adult: Bool,
+                originalLanguage: String,
+                originalTitle: String,
+                genreIds: [Int],
+                title: String,
+                voteAverage: Double,
+                overview: String,
+                releaseDate: String,
+                backdropPath: String,
+                posterPath: String
     ) {
         self.id                 = id
         self.popularity         = popularity

@@ -2,7 +2,7 @@
 Pod::Spec.new do |spec|
 
   spec.name         = "RPEntertainmentService"
-  spec.version      = "0.0.2"
+  spec.version      = "0.0.5"
   spec.summary      = "Dependencia encargada de contener la definicion de los servicios Rappi Entretainment"
 
   spec.description  = <<-DESC
@@ -39,6 +39,6 @@ Pod::Spec.new do |spec|
 end
 
 ## Release New Pod ##
-# pod repo push RPEntertainmentServiceSpec RPEntertainmentService.podspec --allow-warnings --sources='https://github.com/CocoaPods/Specs.git,https://gitlab.com/GonetGrupo/iOS/Dependencies/Spects/GNNetworkServicesSpec.git,https://gitlab.com/GonetGrupo/iOS/Dependencies/Spects/GNSwissRazorSpec.git,git@github.com:javierbc121086/RPEntertainmentDomainSpec.git' --private --verbose
-# git tag -a 0.0.2 -m "Pod V0.0.2"
+# git tag -a 0.0.5 -m "Pod V0.0.5"
 # git push --tags
+# pod repo push RPEntertainmentServiceSpec RPEntertainmentService.podspec --allow-warnings --sources='https://github.com/CocoaPods/Specs.git,https://gitlab.com/GonetGrupo/iOS/Dependencies/Spects/GNNetworkServicesSpec.git,https://gitlab.com/GonetGrupo/iOS/Dependencies/Spects/GNSwissRazorSpec.git,git@github.com:javierbc121086/RPEntertainmentDomainSpec.git' --private --verbose

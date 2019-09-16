@@ -22,18 +22,18 @@ public struct RPETvModel {
     public var posterPath: String
     
     public init (id: Int,
-        originalName: String,
-        genreIds: [Int],
-        name: String,
-        popularity: Double,
-        originCountry: [String],
-        voteCount: Int,
-        firstAirDate: String,
-        backdropPath: String,
-        originalLanguage: String,
-        voteAverage: Double,
-        overview: String,
-        posterPath: String
+                 originalName: String,
+                 genreIds: [Int],
+                 name: String,
+                 popularity: Double,
+                 originCountry: [String],
+                 voteCount: Int,
+                 firstAirDate: String,
+                 backdropPath: String,
+                 originalLanguage: String,
+                 voteAverage: Double,
+                 overview: String,
+                 posterPath: String
     ) {
         self.id                 = id
         self.originalName       = originalName

@@ -4,7 +4,7 @@ PODS:
     - ReachabilitySwift (~> 4.1.0)
   - GNSwissRazor (0.1.1.0)
   - ReachabilitySwift (4.1.0)
-  - RPEntertainmentDomain (0.0.3)
+  - RPEntertainmentDomain (0.0.5)
 
 DEPENDENCIES:
   - GNNetworkServices
@@ -25,7 +25,7 @@ SPEC CHECKSUMS:
   GNNetworkServices: f0789fa2e967571a73f92c5d666d8985143af40f
   GNSwissRazor: 81fafbc345360d3f4c4e30bf042964950f7ed88d
   ReachabilitySwift: 6849231cd4e06559f3b9ef4a97a0a0f96d41e09f
-  RPEntertainmentDomain: be575ac23a5c9a1caeeabbfabec5ecaf5eb0de7b
+  RPEntertainmentDomain: 5e14527810d8c6797da6a00d139edfc9b1b33c8d
 
 PODFILE CHECKSUM: d87d214c28cb850b8f5a97aa1bbe95981fbc2798
 
