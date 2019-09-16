@@ -11,7 +11,6 @@ Pod::Spec.new do |spec|
                    DESC
 
   spec.homepage     = "https://github.com/javierbc121086/RPEntertainmentService"
-  spec.license      = "MIT (example)"
   spec.license      = { :type => "MIT", :file => "LICENSE" }
 
 
@@ -42,4 +41,4 @@ end
 ## Release New Pod ##
 # pod repo push RPEntertainmentServiceSpec RPEntertainmentService.podspec --allow-warnings --sources='https://github.com/CocoaPods/Specs.git,https://gitlab.com/GonetGrupo/iOS/Dependencies/Spects/GNNetworkServicesSpec.git,https://gitlab.com/GonetGrupo/iOS/Dependencies/Spects/GNSwissRazorSpec.git,git@github.com:javierbc121086/RPEntertainmentDomainSpec.git' --private --verbose
 # git tag -a 0.0.2 -m "Pod V0.0.2"
-# git push master --tags
+# git push --tags

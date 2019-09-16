@@ -7,51 +7,49 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0051CBB29DC326F56A438489E49B8146 /* GNSwissRazor-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A638BBF85A7C96831EE53C55F7D2ED91 /* GNSwissRazor-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		063BF19D759B2EF540F30B8CF941C5BB /* GNConnectionServiceDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25767AE257AB0A5039FC2B58D802A054 /* GNConnectionServiceDelegate.swift */; };
+		0051CBB29DC326F56A438489E49B8146 /* GNSwissRazor-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 67A8D334164572EAE3B32F1E132BC63B /* GNSwissRazor-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		063BF19D759B2EF540F30B8CF941C5BB /* GNConnectionServiceDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C89AFE11ECA44A48C16416C0B02BC88 /* GNConnectionServiceDelegate.swift */; };
 		15EC4F44EDA572703996019705428ADB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 34A6C4AC777A892E28F153CCA951EEA8 /* Foundation.framework */; };
-		17E13580DF2B9F83FAC229B194B920CB /* GNNetworkServices-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 45135EB49563D905DB8AD7AF3EADC6CF /* GNNetworkServices-dummy.m */; };
-		1DF8DD86174A7EA5A95FEB1603A2FC4B /* RPEntertainmentDomain.h in Headers */ = {isa = PBXBuildFile; fileRef = 80F465B4B243E8EFC4087BC4967FBED4 /* RPEntertainmentDomain.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		2475873BC11D6F66D0DF2A51F2CBE91A /* GNConnectionType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C74967C59596AD869A4764279252316 /* GNConnectionType.swift */; };
+		17E13580DF2B9F83FAC229B194B920CB /* GNNetworkServices-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A2BECFFEBD4F670EAFD2AEB3B5C71CE8 /* GNNetworkServices-dummy.m */; };
+		2475873BC11D6F66D0DF2A51F2CBE91A /* GNConnectionType.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF73069721D8A63E89939CA6E15ACFD5 /* GNConnectionType.swift */; };
 		25E1D112C820DF31681FFDD6B6DCCF64 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DEC2E24934797E138DE9FC46CDA1CCDB /* SystemConfiguration.framework */; };
 		295CD87BEE22CCAAF0DDBCF27AC087DE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 34A6C4AC777A892E28F153CCA951EEA8 /* Foundation.framework */; };
-		2A5788467DFD101F2B14BDC3614A5424 /* GNSwissRazor-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E6193A22E3A5B0A5C5D2E3761D4B8D37 /* GNSwissRazor-dummy.m */; };
+		2A5788467DFD101F2B14BDC3614A5424 /* GNSwissRazor-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 085A5A9E9F2D6BA5D85AEFD0AFB4BD55 /* GNSwissRazor-dummy.m */; };
 		2D0E9A559BC47A3B895F40B696A34868 /* Pods-RPEntertainmentServiceTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = EC92AB3452E8F3999DEF0FD3EB9C5DAD /* Pods-RPEntertainmentServiceTests-dummy.m */; };
 		2EACADAE209E04764DB8FF05CEBFE25F /* Reachability.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1E8F06129735535D1DE5524D6916430A /* Reachability.framework */; };
-		2ED576550CD2E43EDD5EC46CFEC79A87 /* RPETvResponseEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 656A45E79B45A75F2571107FC28D1EB1 /* RPETvResponseEntity.swift */; };
-		3092F0956D39C207E02081BDD0B2FF3E /* GNSwissRazor.h in Headers */ = {isa = PBXBuildFile; fileRef = 0492EF00012B2ACA32DC49A32C03D855 /* GNSwissRazor.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		3CCE255757E54212C0F6CFAEB9A442DC /* GNBaseServiceExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E2B836B8975E7974901BD00F80EE584 /* GNBaseServiceExtension.swift */; };
-		3D4D359A749E845685BCB237A41A8290 /* GNBaseServiceDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7EB61E88ABA9CFD107F350C65A64A25 /* GNBaseServiceDelegate.swift */; };
+		3092F0956D39C207E02081BDD0B2FF3E /* GNSwissRazor.h in Headers */ = {isa = PBXBuildFile; fileRef = 9480B88852B6DEA092962CBBD3F9E440 /* GNSwissRazor.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3CCE255757E54212C0F6CFAEB9A442DC /* GNBaseServiceExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BA1D581E88A7C8EDDB26A5E04811E75 /* GNBaseServiceExtension.swift */; };
+		3D4D359A749E845685BCB237A41A8290 /* GNBaseServiceDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2413F8513AB443D9B089E1B2289E3BDB /* GNBaseServiceDelegate.swift */; };
 		4240D96416E48AD71F55E055DF84C1C9 /* Pods-RPEntertainmentService-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 950D42DBCDE2AB7D53C6030FC9DD071E /* Pods-RPEntertainmentService-dummy.m */; };
-		48463ED6412BA24B9AEB46C6C976BA41 /* GNConfigService.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7E5745B5B6DBC60BC9C668B604F51DA /* GNConfigService.swift */; };
+		48463ED6412BA24B9AEB46C6C976BA41 /* GNConfigService.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBB6568BCDA22ADF6EC7A6BF81E1F7BF /* GNConfigService.swift */; };
 		4DBCB44A28B38FAE9BFE4D703FAAEBBF /* Pods-RPEntertainmentServiceTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B65BE9F98AC756412ACE35E275F023E3 /* Pods-RPEntertainmentServiceTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		4ECE19D7BF7F844A9F68F253B8098CEC /* Reachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55EA6B7D739DD70E9D7190C1EBDEE3D9 /* Reachability.swift */; };
+		4ECE19D7BF7F844A9F68F253B8098CEC /* Reachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA2B95B22CB8BBDD521D2641695B2664 /* Reachability.swift */; };
 		54DD714AE2E4396B202A8C96ABBB4997 /* GNSwissRazor.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 490B4B07DD843BA1AE4938E24F0257D0 /* GNSwissRazor.framework */; };
-		5757509D13330BD04C5726A0762987C3 /* GNDependencySeriveConfigDependencySeriveConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = B176466DD1C87B3102AD22C26DEE59EE /* GNDependencySeriveConfigDependencySeriveConfig.swift */; };
-		63CE8AA0950E48E9152E1C8A10229F58 /* GNRequestServerType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80F3A12E70427C191FE0D043605F3BE8 /* GNRequestServerType.swift */; };
-		642BA5220DF21B9B2772958D404EE25F /* RPEntertainmentDomain-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A52D9C29E564887090D24290AD200D11 /* RPEntertainmentDomain-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5757509D13330BD04C5726A0762987C3 /* GNDependencySeriveConfigDependencySeriveConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 180ECB899D84567D379CDF0A75F9F6FE /* GNDependencySeriveConfigDependencySeriveConfig.swift */; };
+		5AD00A12C9376A2BCDB2FB4CCA9B1725 /* RPEntertainmentDomain-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D1EFEB2B31B3CAF942AA85D7BA0A588 /* RPEntertainmentDomain-dummy.m */; };
+		63CE8AA0950E48E9152E1C8A10229F58 /* GNRequestServerType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45F2C6490B87CFB8EE8D3FBF047EEF71 /* GNRequestServerType.swift */; };
 		6B781BF3BDDAAFF2AECF131B69F97FDE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 34A6C4AC777A892E28F153CCA951EEA8 /* Foundation.framework */; };
-		6BF05682A2E7FD72DD6A2C805F924C89 /* GNMagicCoreServiceDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71016E8623CDC05F25913B4613871DAA /* GNMagicCoreServiceDelegate.swift */; };
-		6D89D94F741BA65A2D51B4F49B903B7D /* GNTools.swift in Sources */ = {isa = PBXBuildFile; fileRef = D095EDA6916FA9ACDA5D8E45D89477EF /* GNTools.swift */; };
-		72F8A1832C0BE3FD701AE7DDD03597EB /* GNURLSessionService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 831C38A7C426D0B13F96D8906C70A5DE /* GNURLSessionService.swift */; };
-		743B52FE95EFF725BA354556924B9EB6 /* GNNetworkServices.h in Headers */ = {isa = PBXBuildFile; fileRef = DDD9756CD0A4C1D6504C93173C846A6A /* GNNetworkServices.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		75B65AABD39BEB023B121EA38A471A23 /* RPETvEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEC7E387EAD5D2DD482F50D493799F5F /* RPETvEntity.swift */; };
-		762F342B3FDC830430E91209AD6913E1 /* RPEMovieEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA598F26CB0821446D2E48E5EB58BE02 /* RPEMovieEntity.swift */; };
-		774C34CF3506497A9E5447697F384F21 /* GNRequestServerTypeExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 639B28B35F3AC02FDDB2D17CBE9149CE /* GNRequestServerTypeExtension.swift */; };
-		780FC9D5AA4E1556DD185E32044E7E20 /* BMPCookie.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A85B840379996FCEFCB3351CA079243 /* BMPCookie.swift */; };
-		796A525B64FAF7C52075F0B8C1847126 /* RPEMovieResponseEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 086C13EF6F02A9DBC4B49EB28F878D29 /* RPEMovieResponseEntity.swift */; };
-		85D9B59B7E3838B99407716B98BAAFAF /* ReachabilitySwift-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 84B1B5924E3D155C56C45F80CED74E19 /* ReachabilitySwift-dummy.m */; };
-		928268622EA45146B275DF8AA67DE789 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 34A6C4AC777A892E28F153CCA951EEA8 /* Foundation.framework */; };
+		6BF05682A2E7FD72DD6A2C805F924C89 /* GNMagicCoreServiceDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F5326372F029A9B3A7A28331BADA29E /* GNMagicCoreServiceDelegate.swift */; };
+		6D89D94F741BA65A2D51B4F49B903B7D /* GNTools.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E6B5A430BA6F47E8789E08219FD3443 /* GNTools.swift */; };
+		72F8A1832C0BE3FD701AE7DDD03597EB /* GNURLSessionService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D0C6A21BF3FCA18862C61C477608B7F /* GNURLSessionService.swift */; };
+		743B52FE95EFF725BA354556924B9EB6 /* GNNetworkServices.h in Headers */ = {isa = PBXBuildFile; fileRef = B746B0B34EA589A6A3E970183C0FA581 /* GNNetworkServices.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		774C34CF3506497A9E5447697F384F21 /* GNRequestServerTypeExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83F79164DCB4D40142E3496C0BAC0E79 /* GNRequestServerTypeExtension.swift */; };
+		780FC9D5AA4E1556DD185E32044E7E20 /* BMPCookie.swift in Sources */ = {isa = PBXBuildFile; fileRef = D607690D22B07F4EB044B705636A6C31 /* BMPCookie.swift */; };
+		7DD5B23228997216C3F132863EF6C7E4 /* RPETvModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6598D30D66A3075127F4BA9430F84804 /* RPETvModel.swift */; };
+		81127482116C7DCC45854882273C9D96 /* RPEMovieModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6240056CD9D9AC31781CCE6A66990903 /* RPEMovieModel.swift */; };
+		85D9B59B7E3838B99407716B98BAAFAF /* ReachabilitySwift-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 34BD322DB1917DC20B36173BCFE5C801 /* ReachabilitySwift-dummy.m */; };
+		8DDCCFAF6C221BF40C62D0FBBB29671F /* RPEntertainmentDomain.h in Headers */ = {isa = PBXBuildFile; fileRef = 4C9F0B9A310AFE65E0F077D447126744 /* RPEntertainmentDomain.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		929B28B3CDFB8144FC4348B68A6042E7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 34A6C4AC777A892E28F153CCA951EEA8 /* Foundation.framework */; };
-		955AED97FF0920003A35883C918F3097 /* GNBaseService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 300651BAF8CEF7E97F8B8A4FCF3310AA /* GNBaseService.swift */; };
-		AE0B85BDEB2814F7C8AAC843C9776139 /* GNNetworkServices-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3D45A25F8CA0D80968AE9AC0611C1150 /* GNNetworkServices-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B5CD8E374CF4FCCE4C0E8206F5D947CA /* ReachabilitySwift-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E7E0DCBFF7E3E4E11CBBC0E5F1001B25 /* ReachabilitySwift-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		BDE646D9DD6DFD3DAAD0831D8527AE60 /* GNConfig-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0A082FB91377F84C505C9E92EE97BFE1 /* GNConfig-Info.plist */; };
-		C884E130CA85FAE504EA82B5D1FD5FF8 /* RPEntertainmentDomain-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F35528FCE27B8B71AC5B053577563610 /* RPEntertainmentDomain-dummy.m */; };
-		D817A5BBFF7A602EDA3BE27F18A1B791 /* GNExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = F21C01DF81DEACCFA22FFBF7BA052109 /* GNExtension.swift */; };
+		955AED97FF0920003A35883C918F3097 /* GNBaseService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 634E466370215AB9ECD9CA6B6C42457F /* GNBaseService.swift */; };
+		A951C6C2408D3F25E1B6DFABA4EA1925 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 34A6C4AC777A892E28F153CCA951EEA8 /* Foundation.framework */; };
+		AE0B85BDEB2814F7C8AAC843C9776139 /* GNNetworkServices-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8AEBE7D48A4D21744793B75CAC8B5674 /* GNNetworkServices-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B5CD8E374CF4FCCE4C0E8206F5D947CA /* ReachabilitySwift-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 871681FCF13E7B8E70AF44E0D3B2D3CC /* ReachabilitySwift-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B78F7B6C2808F339E6318E201B4ECBB6 /* RPEntertainmentDomain-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 434923400CD590720F323AFCF2263C72 /* RPEntertainmentDomain-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BDE646D9DD6DFD3DAAD0831D8527AE60 /* GNConfig-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = F2BDC7627729C4B69EBA38D71CC7F506 /* GNConfig-Info.plist */; };
+		D817A5BBFF7A602EDA3BE27F18A1B791 /* GNExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADF373D1B36D6218987D3365FDE49A1C /* GNExtension.swift */; };
 		DEEE620178CAEBF83689D470B71A8BA4 /* Pods-RPEntertainmentService-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6C54387077F0D0B8EFCC4CEA7FFD97E2 /* Pods-RPEntertainmentService-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F8DA48F98DECD4A673D83874CCC4D614 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 34A6C4AC777A892E28F153CCA951EEA8 /* Foundation.framework */; };
-		FEDF1546C7851E93AB0582C2AFCF3D46 /* GNConnectionTypeExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57328DA40358B71869DF20E97985C246 /* GNConnectionTypeExtension.swift */; };
+		FEDF1546C7851E93AB0582C2AFCF3D46 /* GNConnectionTypeExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E0B2BFC406672E0A28017ABEBC51ACD /* GNConnectionTypeExtension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -135,81 +133,79 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0492EF00012B2ACA32DC49A32C03D855 /* GNSwissRazor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GNSwissRazor.h; path = GNSwissRazor/GNSwissRazor.h; sourceTree = "<group>"; };
-		086C13EF6F02A9DBC4B49EB28F878D29 /* RPEMovieResponseEntity.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RPEMovieResponseEntity.swift; path = RPEntertainmentDomain/Entity/Response/RPEMovieResponseEntity.swift; sourceTree = "<group>"; };
-		0A082FB91377F84C505C9E92EE97BFE1 /* GNConfig-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; name = "GNConfig-Info.plist"; path = "GNNetworkServices/GNConfig-Info.plist"; sourceTree = "<group>"; };
+		085A5A9E9F2D6BA5D85AEFD0AFB4BD55 /* GNSwissRazor-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "GNSwissRazor-dummy.m"; sourceTree = "<group>"; };
+		0BA1D581E88A7C8EDDB26A5E04811E75 /* GNBaseServiceExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GNBaseServiceExtension.swift; path = GNNetworkServices/Implements/GNBaseServiceExtension.swift; sourceTree = "<group>"; };
+		0D0C6A21BF3FCA18862C61C477608B7F /* GNURLSessionService.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GNURLSessionService.swift; path = GNNetworkServices/ConnectionCore/Urlsession/GNURLSessionService.swift; sourceTree = "<group>"; };
+		0D1EFEB2B31B3CAF942AA85D7BA0A588 /* RPEntertainmentDomain-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "RPEntertainmentDomain-dummy.m"; sourceTree = "<group>"; };
+		109F11044FDA6EF7C5CACFE2E883AC5D /* ReachabilitySwift.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = ReachabilitySwift.modulemap; sourceTree = "<group>"; };
 		10A96FD94093AC3D8A177E4F77AA8A12 /* Pods-RPEntertainmentService-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-RPEntertainmentService-Info.plist"; sourceTree = "<group>"; };
 		1238C4FEA3F354BF8CA601FAE964B978 /* GNSwissRazor.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = GNSwissRazor.framework; path = GNSwissRazor.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		168C9F5015B2E45BAD4B8E239975B422 /* Pods-RPEntertainmentServiceTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-RPEntertainmentServiceTests.modulemap"; sourceTree = "<group>"; };
 		16AFD628ED3F97B1443D6E5C64303567 /* Pods_RPEntertainmentServiceTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_RPEntertainmentServiceTests.framework; path = "Pods-RPEntertainmentServiceTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		180ECB899D84567D379CDF0A75F9F6FE /* GNDependencySeriveConfigDependencySeriveConfig.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GNDependencySeriveConfigDependencySeriveConfig.swift; path = GNNetworkServices/ConnectionCore/Config/GNDependencySeriveConfigDependencySeriveConfig.swift; sourceTree = "<group>"; };
+		1E0B2BFC406672E0A28017ABEBC51ACD /* GNConnectionTypeExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GNConnectionTypeExtension.swift; path = GNNetworkServices/Enum/GNConnectionType/GNConnectionTypeExtension.swift; sourceTree = "<group>"; };
 		1E8F06129735535D1DE5524D6916430A /* Reachability.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Reachability.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		21B03CA622E690725A6626C088E1D09F /* Reachability.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Reachability.framework; path = ReachabilitySwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		24A6906C59B6502953644CD6A80CBBAE /* ReachabilitySwift.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = ReachabilitySwift.modulemap; sourceTree = "<group>"; };
-		25767AE257AB0A5039FC2B58D802A054 /* GNConnectionServiceDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GNConnectionServiceDelegate.swift; path = GNNetworkServices/Implements/Protocols/GNConnectionServiceDelegate.swift; sourceTree = "<group>"; };
+		2413F8513AB443D9B089E1B2289E3BDB /* GNBaseServiceDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GNBaseServiceDelegate.swift; path = GNNetworkServices/Implements/Protocols/GNBaseServiceDelegate.swift; sourceTree = "<group>"; };
 		26C374BDA53E46C4ADC334AC96DFBB9D /* Pods-RPEntertainmentService.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RPEntertainmentService.release.xcconfig"; sourceTree = "<group>"; };
-		2C74967C59596AD869A4764279252316 /* GNConnectionType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GNConnectionType.swift; path = GNNetworkServices/Enum/GNConnectionType/GNConnectionType.swift; sourceTree = "<group>"; };
+		2BF278BBA3D4EF11B315C3441F9DE333 /* GNSwissRazor.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = GNSwissRazor.modulemap; sourceTree = "<group>"; };
 		2C90715B4C8AC687F8AB6DCCA9B55FB9 /* Pods-RPEntertainmentService-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-RPEntertainmentService-acknowledgements.plist"; sourceTree = "<group>"; };
-		300651BAF8CEF7E97F8B8A4FCF3310AA /* GNBaseService.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GNBaseService.swift; path = GNNetworkServices/Implements/GNBaseService.swift; sourceTree = "<group>"; };
+		2E6B5A430BA6F47E8789E08219FD3443 /* GNTools.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GNTools.swift; path = GNSwissRazor/GNTools.swift; sourceTree = "<group>"; };
 		34A6C4AC777A892E28F153CCA951EEA8 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		386F342FAB9278A6815D8062924F551C /* GNNetworkServices-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "GNNetworkServices-Info.plist"; sourceTree = "<group>"; };
+		34BD322DB1917DC20B36173BCFE5C801 /* ReachabilitySwift-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ReachabilitySwift-dummy.m"; sourceTree = "<group>"; };
+		3C5BF556800F81D0B1A4F9B9E79AACAC /* GNNetworkServices.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = GNNetworkServices.modulemap; sourceTree = "<group>"; };
 		3D2B29B9D47F871BC914F84D2A760513 /* Pods-RPEntertainmentServiceTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-RPEntertainmentServiceTests-Info.plist"; sourceTree = "<group>"; };
-		3D45A25F8CA0D80968AE9AC0611C1150 /* GNNetworkServices-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GNNetworkServices-umbrella.h"; sourceTree = "<group>"; };
-		436FD88FD54C8C700E4E5B763AF6816A /* GNSwissRazor.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = GNSwissRazor.modulemap; sourceTree = "<group>"; };
-		43B8E1805B655D6182611124EADC8EC2 /* GNSwissRazor-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "GNSwissRazor-Info.plist"; sourceTree = "<group>"; };
-		45135EB49563D905DB8AD7AF3EADC6CF /* GNNetworkServices-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "GNNetworkServices-dummy.m"; sourceTree = "<group>"; };
+		434923400CD590720F323AFCF2263C72 /* RPEntertainmentDomain-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RPEntertainmentDomain-umbrella.h"; sourceTree = "<group>"; };
+		45F2C6490B87CFB8EE8D3FBF047EEF71 /* GNRequestServerType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GNRequestServerType.swift; path = GNNetworkServices/Enum/GNRequestServerType/GNRequestServerType.swift; sourceTree = "<group>"; };
 		490B4B07DD843BA1AE4938E24F0257D0 /* GNSwissRazor.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = GNSwissRazor.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4A77A27E0BBC2FCE1E27FFE5738B4559 /* Pods-RPEntertainmentServiceTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-RPEntertainmentServiceTests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		4A85B840379996FCEFCB3351CA079243 /* BMPCookie.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BMPCookie.swift; path = GNNetworkServices/Model/BMPCookie.swift; sourceTree = "<group>"; };
-		55EA6B7D739DD70E9D7190C1EBDEE3D9 /* Reachability.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Reachability.swift; path = Reachability/Reachability.swift; sourceTree = "<group>"; };
-		57328DA40358B71869DF20E97985C246 /* GNConnectionTypeExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GNConnectionTypeExtension.swift; path = GNNetworkServices/Enum/GNConnectionType/GNConnectionTypeExtension.swift; sourceTree = "<group>"; };
+		4C89AFE11ECA44A48C16416C0B02BC88 /* GNConnectionServiceDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GNConnectionServiceDelegate.swift; path = GNNetworkServices/Implements/Protocols/GNConnectionServiceDelegate.swift; sourceTree = "<group>"; };
+		4C9F0B9A310AFE65E0F077D447126744 /* RPEntertainmentDomain.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RPEntertainmentDomain.h; path = RPEntertainmentDomain/RPEntertainmentDomain.h; sourceTree = "<group>"; };
+		55E3D9BC6792E3DA042C8F80D650A111 /* ReachabilitySwift-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ReachabilitySwift-Info.plist"; sourceTree = "<group>"; };
 		58B565E43D0801470A75E9F388004F1C /* RPEntertainmentDomain.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = RPEntertainmentDomain.framework; path = RPEntertainmentDomain.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		639B28B35F3AC02FDDB2D17CBE9149CE /* GNRequestServerTypeExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GNRequestServerTypeExtension.swift; path = GNNetworkServices/Enum/GNRequestServerType/GNRequestServerTypeExtension.swift; sourceTree = "<group>"; };
-		656A45E79B45A75F2571107FC28D1EB1 /* RPETvResponseEntity.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RPETvResponseEntity.swift; path = RPEntertainmentDomain/Entity/Response/RPETvResponseEntity.swift; sourceTree = "<group>"; };
+		612435C70DFA4DE3B55C88DEB4FCF0C5 /* RPEntertainmentDomain.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = RPEntertainmentDomain.modulemap; sourceTree = "<group>"; };
+		6240056CD9D9AC31781CCE6A66990903 /* RPEMovieModel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RPEMovieModel.swift; path = RPEntertainmentDomain/Model/RPEMovieModel.swift; sourceTree = "<group>"; };
+		634E466370215AB9ECD9CA6B6C42457F /* GNBaseService.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GNBaseService.swift; path = GNNetworkServices/Implements/GNBaseService.swift; sourceTree = "<group>"; };
+		6598D30D66A3075127F4BA9430F84804 /* RPETvModel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RPETvModel.swift; path = RPEntertainmentDomain/Model/RPETvModel.swift; sourceTree = "<group>"; };
+		67A8D334164572EAE3B32F1E132BC63B /* GNSwissRazor-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GNSwissRazor-umbrella.h"; sourceTree = "<group>"; };
 		693266A1D4655905E4A6F5802E684D36 /* Pods-RPEntertainmentService-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-RPEntertainmentService-acknowledgements.markdown"; sourceTree = "<group>"; };
 		6A20E7EEAD9507B9CA9BEAFCD2408DA1 /* Pods-RPEntertainmentServiceTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-RPEntertainmentServiceTests-acknowledgements.plist"; sourceTree = "<group>"; };
-		6ABDF8375E818F0CB6F5CF79DE68AC73 /* RPEntertainmentDomain-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RPEntertainmentDomain-prefix.pch"; sourceTree = "<group>"; };
-		6B31F5ED3A0B6B0F2916D0B806ACFFDE /* ReachabilitySwift-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ReachabilitySwift-Info.plist"; sourceTree = "<group>"; };
 		6C54387077F0D0B8EFCC4CEA7FFD97E2 /* Pods-RPEntertainmentService-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-RPEntertainmentService-umbrella.h"; sourceTree = "<group>"; };
-		71016E8623CDC05F25913B4613871DAA /* GNMagicCoreServiceDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GNMagicCoreServiceDelegate.swift; path = GNNetworkServices/Implements/Protocols/GNMagicCoreServiceDelegate.swift; sourceTree = "<group>"; };
+		6DE636A20F7F77ECCF379BE7BF8E149C /* GNSwissRazor-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GNSwissRazor-prefix.pch"; sourceTree = "<group>"; };
+		6F5326372F029A9B3A7A28331BADA29E /* GNMagicCoreServiceDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GNMagicCoreServiceDelegate.swift; path = GNNetworkServices/Implements/Protocols/GNMagicCoreServiceDelegate.swift; sourceTree = "<group>"; };
 		77144557C289FC83CB8DABDBDB00D303 /* Pods-RPEntertainmentService.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RPEntertainmentService.debug.xcconfig"; sourceTree = "<group>"; };
-		7E2B836B8975E7974901BD00F80EE584 /* GNBaseServiceExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GNBaseServiceExtension.swift; path = GNNetworkServices/Implements/GNBaseServiceExtension.swift; sourceTree = "<group>"; };
-		80F3A12E70427C191FE0D043605F3BE8 /* GNRequestServerType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GNRequestServerType.swift; path = GNNetworkServices/Enum/GNRequestServerType/GNRequestServerType.swift; sourceTree = "<group>"; };
-		80F465B4B243E8EFC4087BC4967FBED4 /* RPEntertainmentDomain.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RPEntertainmentDomain.h; path = RPEntertainmentDomain/RPEntertainmentDomain.h; sourceTree = "<group>"; };
-		831C38A7C426D0B13F96D8906C70A5DE /* GNURLSessionService.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GNURLSessionService.swift; path = GNNetworkServices/ConnectionCore/Urlsession/GNURLSessionService.swift; sourceTree = "<group>"; };
-		84B1B5924E3D155C56C45F80CED74E19 /* ReachabilitySwift-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ReachabilitySwift-dummy.m"; sourceTree = "<group>"; };
+		83F79164DCB4D40142E3496C0BAC0E79 /* GNRequestServerTypeExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GNRequestServerTypeExtension.swift; path = GNNetworkServices/Enum/GNRequestServerType/GNRequestServerTypeExtension.swift; sourceTree = "<group>"; };
+		871681FCF13E7B8E70AF44E0D3B2D3CC /* ReachabilitySwift-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ReachabilitySwift-umbrella.h"; sourceTree = "<group>"; };
+		8AEBE7D48A4D21744793B75CAC8B5674 /* GNNetworkServices-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GNNetworkServices-umbrella.h"; sourceTree = "<group>"; };
+		904FFE458F21F5DFDB2A36088DF09979 /* GNSwissRazor.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GNSwissRazor.xcconfig; sourceTree = "<group>"; };
+		90F997805C95464760EFF8BD29F65343 /* RPEntertainmentDomain.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = RPEntertainmentDomain.xcconfig; sourceTree = "<group>"; };
 		914F264F08E0D330CBBEA8B3C0926B51 /* Pods-RPEntertainmentService.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-RPEntertainmentService.modulemap"; sourceTree = "<group>"; };
-		94EB403F2AD935198D31B1C28BE8375F /* GNSwissRazor-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GNSwissRazor-prefix.pch"; sourceTree = "<group>"; };
+		9480B88852B6DEA092962CBBD3F9E440 /* GNSwissRazor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GNSwissRazor.h; path = GNSwissRazor/GNSwissRazor.h; sourceTree = "<group>"; };
 		950D42DBCDE2AB7D53C6030FC9DD071E /* Pods-RPEntertainmentService-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-RPEntertainmentService-dummy.m"; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		A52D9C29E564887090D24290AD200D11 /* RPEntertainmentDomain-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RPEntertainmentDomain-umbrella.h"; sourceTree = "<group>"; };
-		A638BBF85A7C96831EE53C55F7D2ED91 /* GNSwissRazor-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GNSwissRazor-umbrella.h"; sourceTree = "<group>"; };
+		A2BECFFEBD4F670EAFD2AEB3B5C71CE8 /* GNNetworkServices-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "GNNetworkServices-dummy.m"; sourceTree = "<group>"; };
 		A928307E4FD0841F32E14204742FDC3D /* Pods-RPEntertainmentServiceTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RPEntertainmentServiceTests.debug.xcconfig"; sourceTree = "<group>"; };
-		ABCFEC2995D7FF06CF776F9348DAED0B /* GNNetworkServices-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GNNetworkServices-prefix.pch"; sourceTree = "<group>"; };
+		AB915BF8326C8649B2504D9B39EB20B8 /* GNNetworkServices.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GNNetworkServices.xcconfig; sourceTree = "<group>"; };
 		ABDAB4CAC9670F1C9DAC296B58BB2D8C /* Pods-RPEntertainmentServiceTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-RPEntertainmentServiceTests-frameworks.sh"; sourceTree = "<group>"; };
-		B176466DD1C87B3102AD22C26DEE59EE /* GNDependencySeriveConfigDependencySeriveConfig.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GNDependencySeriveConfigDependencySeriveConfig.swift; path = GNNetworkServices/ConnectionCore/Config/GNDependencySeriveConfigDependencySeriveConfig.swift; sourceTree = "<group>"; };
-		B2F518434A0318DD896FB6A23B2AFA89 /* ReachabilitySwift-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ReachabilitySwift-prefix.pch"; sourceTree = "<group>"; };
+		ADF373D1B36D6218987D3365FDE49A1C /* GNExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GNExtension.swift; path = GNSwissRazor/GNExtension.swift; sourceTree = "<group>"; };
+		B07688174FD6F3207651ECE171D86FC4 /* ReachabilitySwift-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ReachabilitySwift-prefix.pch"; sourceTree = "<group>"; };
 		B65BE9F98AC756412ACE35E275F023E3 /* Pods-RPEntertainmentServiceTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-RPEntertainmentServiceTests-umbrella.h"; sourceTree = "<group>"; };
+		B746B0B34EA589A6A3E970183C0FA581 /* GNNetworkServices.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GNNetworkServices.h; path = GNNetworkServices/GNNetworkServices.h; sourceTree = "<group>"; };
+		B8D09C6F5A26E5D6A20B0674C567BFE9 /* ReachabilitySwift.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ReachabilitySwift.xcconfig; sourceTree = "<group>"; };
 		BA7B0A7E4E48209CFAE684EC0860E6AD /* GNNetworkServices.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = GNNetworkServices.framework; path = GNNetworkServices.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		BDD4F12691296E8CF5CA38EA74F46C09 /* GNNetworkServices.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = GNNetworkServices.modulemap; sourceTree = "<group>"; };
-		C7E5745B5B6DBC60BC9C668B604F51DA /* GNConfigService.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GNConfigService.swift; path = GNNetworkServices/ConnectionCore/Config/GNConfigService.swift; sourceTree = "<group>"; };
-		C7EB61E88ABA9CFD107F350C65A64A25 /* GNBaseServiceDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GNBaseServiceDelegate.swift; path = GNNetworkServices/Implements/Protocols/GNBaseServiceDelegate.swift; sourceTree = "<group>"; };
-		D095EDA6916FA9ACDA5D8E45D89477EF /* GNTools.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GNTools.swift; path = GNSwissRazor/GNTools.swift; sourceTree = "<group>"; };
-		D8B938918599349FE87F97ABFEAD1FA4 /* GNNetworkServices.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GNNetworkServices.xcconfig; sourceTree = "<group>"; };
-		DA598F26CB0821446D2E48E5EB58BE02 /* RPEMovieEntity.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RPEMovieEntity.swift; path = RPEntertainmentDomain/Entity/RPEMovieEntity.swift; sourceTree = "<group>"; };
-		DDD9756CD0A4C1D6504C93173C846A6A /* GNNetworkServices.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GNNetworkServices.h; path = GNNetworkServices/GNNetworkServices.h; sourceTree = "<group>"; };
+		BBB6568BCDA22ADF6EC7A6BF81E1F7BF /* GNConfigService.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GNConfigService.swift; path = GNNetworkServices/ConnectionCore/Config/GNConfigService.swift; sourceTree = "<group>"; };
+		C0E2666A87D8E6CA39A91687E8645103 /* RPEntertainmentDomain-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RPEntertainmentDomain-prefix.pch"; sourceTree = "<group>"; };
+		CE1FFBD14F4192448EF63F0FC008AA0B /* RPEntertainmentDomain-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "RPEntertainmentDomain-Info.plist"; sourceTree = "<group>"; };
+		D607690D22B07F4EB044B705636A6C31 /* BMPCookie.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BMPCookie.swift; path = GNNetworkServices/Model/BMPCookie.swift; sourceTree = "<group>"; };
+		DA2B95B22CB8BBDD521D2641695B2664 /* Reachability.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Reachability.swift; path = Reachability/Reachability.swift; sourceTree = "<group>"; };
 		DEC2E24934797E138DE9FC46CDA1CCDB /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/SystemConfiguration.framework; sourceTree = DEVELOPER_DIR; };
-		DEC7E387EAD5D2DD482F50D493799F5F /* RPETvEntity.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RPETvEntity.swift; path = RPEntertainmentDomain/Entity/RPETvEntity.swift; sourceTree = "<group>"; };
-		E37D36686948112D7EF8C495C5C58031 /* GNSwissRazor.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GNSwissRazor.xcconfig; sourceTree = "<group>"; };
-		E6193A22E3A5B0A5C5D2E3761D4B8D37 /* GNSwissRazor-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "GNSwissRazor-dummy.m"; sourceTree = "<group>"; };
-		E729830B832AF2D9FF3C59B91848BCAA /* ReachabilitySwift.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ReachabilitySwift.xcconfig; sourceTree = "<group>"; };
-		E7E0DCBFF7E3E4E11CBBC0E5F1001B25 /* ReachabilitySwift-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ReachabilitySwift-umbrella.h"; sourceTree = "<group>"; };
-		E82A31B3CDEAD9D2AAE39A49EC99BECE /* RPEntertainmentDomain-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "RPEntertainmentDomain-Info.plist"; sourceTree = "<group>"; };
+		E04E8FF0A5A0FD059C061B457CB98318 /* GNNetworkServices-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "GNNetworkServices-Info.plist"; sourceTree = "<group>"; };
+		E40F130110CC6429E4F6E0946A6335D6 /* GNSwissRazor-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "GNSwissRazor-Info.plist"; sourceTree = "<group>"; };
 		EC92AB3452E8F3999DEF0FD3EB9C5DAD /* Pods-RPEntertainmentServiceTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-RPEntertainmentServiceTests-dummy.m"; sourceTree = "<group>"; };
+		EF73069721D8A63E89939CA6E15ACFD5 /* GNConnectionType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GNConnectionType.swift; path = GNNetworkServices/Enum/GNConnectionType/GNConnectionType.swift; sourceTree = "<group>"; };
 		F05A8BF9613150226A3102C340E745A5 /* Pods_RPEntertainmentService.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_RPEntertainmentService.framework; path = "Pods-RPEntertainmentService.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		F21C01DF81DEACCFA22FFBF7BA052109 /* GNExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GNExtension.swift; path = GNSwissRazor/GNExtension.swift; sourceTree = "<group>"; };
-		F35528FCE27B8B71AC5B053577563610 /* RPEntertainmentDomain-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "RPEntertainmentDomain-dummy.m"; sourceTree = "<group>"; };
-		F357884ADEC266752BE1E10D113D1206 /* RPEntertainmentDomain.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = RPEntertainmentDomain.modulemap; sourceTree = "<group>"; };
-		F9DDA9D895F23E9D47EE77262883EC96 /* RPEntertainmentDomain.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = RPEntertainmentDomain.xcconfig; sourceTree = "<group>"; };
+		F14833DAAA846067F021E01C60F1D54D /* GNNetworkServices-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GNNetworkServices-prefix.pch"; sourceTree = "<group>"; };
+		F2BDC7627729C4B69EBA38D71CC7F506 /* GNConfig-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; name = "GNConfig-Info.plist"; path = "GNNetworkServices/GNConfig-Info.plist"; sourceTree = "<group>"; };
 		FE17D0904E5EC594EFEC7FA9F078AB77 /* Pods-RPEntertainmentServiceTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RPEntertainmentServiceTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -247,14 +243,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		9E8E2EA74EE2376C8DB18F7A0F44409A /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				928268622EA45146B275DF8AA67DE789 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		CA1BA4E617E5D24BE5E1569CD9D07B95 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -265,9 +253,29 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		DE53F1D32F699151D9D23140D6149F21 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A951C6C2408D3F25E1B6DFABA4EA1925 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		06C10C05D0ADFB31C849C3F12900E008 /* RPEntertainmentDomain */ = {
+			isa = PBXGroup;
+			children = (
+				6240056CD9D9AC31781CCE6A66990903 /* RPEMovieModel.swift */,
+				4C9F0B9A310AFE65E0F077D447126744 /* RPEntertainmentDomain.h */,
+				6598D30D66A3075127F4BA9430F84804 /* RPETvModel.swift */,
+				DC024058912940A4ED9B6AADB715D23C /* Support Files */,
+			);
+			name = RPEntertainmentDomain;
+			path = RPEntertainmentDomain;
+			sourceTree = "<group>";
+		};
 		2E40D703F06AB8678DAD13342D65B2D0 /* Products */ = {
 			isa = PBXGroup;
 			children = (
@@ -279,46 +287,6 @@
 				58B565E43D0801470A75E9F388004F1C /* RPEntertainmentDomain.framework */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		32D92A688B21EF8EEDC6C07A15B6A3F7 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				436FD88FD54C8C700E4E5B763AF6816A /* GNSwissRazor.modulemap */,
-				E37D36686948112D7EF8C495C5C58031 /* GNSwissRazor.xcconfig */,
-				E6193A22E3A5B0A5C5D2E3761D4B8D37 /* GNSwissRazor-dummy.m */,
-				43B8E1805B655D6182611124EADC8EC2 /* GNSwissRazor-Info.plist */,
-				94EB403F2AD935198D31B1C28BE8375F /* GNSwissRazor-prefix.pch */,
-				A638BBF85A7C96831EE53C55F7D2ED91 /* GNSwissRazor-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/GNSwissRazor";
-			sourceTree = "<group>";
-		};
-		3440273472340D992A964B42D4045519 /* RPEntertainmentDomain */ = {
-			isa = PBXGroup;
-			children = (
-				DA598F26CB0821446D2E48E5EB58BE02 /* RPEMovieEntity.swift */,
-				086C13EF6F02A9DBC4B49EB28F878D29 /* RPEMovieResponseEntity.swift */,
-				80F465B4B243E8EFC4087BC4967FBED4 /* RPEntertainmentDomain.h */,
-				DEC7E387EAD5D2DD482F50D493799F5F /* RPETvEntity.swift */,
-				656A45E79B45A75F2571107FC28D1EB1 /* RPETvResponseEntity.swift */,
-				77FCB6C5037773E5E5986B6E117D6387 /* Support Files */,
-			);
-			name = RPEntertainmentDomain;
-			path = RPEntertainmentDomain;
-			sourceTree = "<group>";
-		};
-		3AADD739E4F33618D80F342C62C11371 /* GNSwissRazor */ = {
-			isa = PBXGroup;
-			children = (
-				F21C01DF81DEACCFA22FFBF7BA052109 /* GNExtension.swift */,
-				0492EF00012B2ACA32DC49A32C03D855 /* GNSwissRazor.h */,
-				D095EDA6916FA9ACDA5D8E45D89477EF /* GNTools.swift */,
-				32D92A688B21EF8EEDC6C07A15B6A3F7 /* Support Files */,
-			);
-			name = GNSwissRazor;
-			path = GNSwissRazor;
 			sourceTree = "<group>";
 		};
 		4FEF884459AB4E60CB0FE5E34EAD73DE /* Frameworks */ = {
@@ -365,28 +333,64 @@
 			path = "Target Support Files/Pods-RPEntertainmentService";
 			sourceTree = "<group>";
 		};
-		65BD3849C5C0DD44DE980E5411BADC4A /* ReachabilitySwift */ = {
+		5AE8AC03B15D228106094D4A2D782AD0 /* GNSwissRazor */ = {
 			isa = PBXGroup;
 			children = (
-				55EA6B7D739DD70E9D7190C1EBDEE3D9 /* Reachability.swift */,
-				DC5730B5066FB52ECA56080B67CB816A /* Support Files */,
+				ADF373D1B36D6218987D3365FDE49A1C /* GNExtension.swift */,
+				9480B88852B6DEA092962CBBD3F9E440 /* GNSwissRazor.h */,
+				2E6B5A430BA6F47E8789E08219FD3443 /* GNTools.swift */,
+				ED0356BAF2FD35E8A01B8E462EE937C1 /* Support Files */,
+			);
+			name = GNSwissRazor;
+			path = GNSwissRazor;
+			sourceTree = "<group>";
+		};
+		73B351326EF0ACC1408A50D50C76B73C /* GNNetworkServices */ = {
+			isa = PBXGroup;
+			children = (
+				D607690D22B07F4EB044B705636A6C31 /* BMPCookie.swift */,
+				634E466370215AB9ECD9CA6B6C42457F /* GNBaseService.swift */,
+				2413F8513AB443D9B089E1B2289E3BDB /* GNBaseServiceDelegate.swift */,
+				0BA1D581E88A7C8EDDB26A5E04811E75 /* GNBaseServiceExtension.swift */,
+				BBB6568BCDA22ADF6EC7A6BF81E1F7BF /* GNConfigService.swift */,
+				4C89AFE11ECA44A48C16416C0B02BC88 /* GNConnectionServiceDelegate.swift */,
+				EF73069721D8A63E89939CA6E15ACFD5 /* GNConnectionType.swift */,
+				1E0B2BFC406672E0A28017ABEBC51ACD /* GNConnectionTypeExtension.swift */,
+				180ECB899D84567D379CDF0A75F9F6FE /* GNDependencySeriveConfigDependencySeriveConfig.swift */,
+				6F5326372F029A9B3A7A28331BADA29E /* GNMagicCoreServiceDelegate.swift */,
+				B746B0B34EA589A6A3E970183C0FA581 /* GNNetworkServices.h */,
+				45F2C6490B87CFB8EE8D3FBF047EEF71 /* GNRequestServerType.swift */,
+				83F79164DCB4D40142E3496C0BAC0E79 /* GNRequestServerTypeExtension.swift */,
+				0D0C6A21BF3FCA18862C61C477608B7F /* GNURLSessionService.swift */,
+				9225525352C3727E387DA7050F07CB08 /* Resources */,
+				D065A9D4832B721357E11B655BF6ABF7 /* Support Files */,
+			);
+			name = GNNetworkServices;
+			path = GNNetworkServices;
+			sourceTree = "<group>";
+		};
+		743839294345F2D8406D0985CBED2E11 /* ReachabilitySwift */ = {
+			isa = PBXGroup;
+			children = (
+				DA2B95B22CB8BBDD521D2641695B2664 /* Reachability.swift */,
+				82F414BD371FAA7F8B19C274170D2ECE /* Support Files */,
 			);
 			name = ReachabilitySwift;
 			path = ReachabilitySwift;
 			sourceTree = "<group>";
 		};
-		77FCB6C5037773E5E5986B6E117D6387 /* Support Files */ = {
+		82F414BD371FAA7F8B19C274170D2ECE /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				F357884ADEC266752BE1E10D113D1206 /* RPEntertainmentDomain.modulemap */,
-				F9DDA9D895F23E9D47EE77262883EC96 /* RPEntertainmentDomain.xcconfig */,
-				F35528FCE27B8B71AC5B053577563610 /* RPEntertainmentDomain-dummy.m */,
-				E82A31B3CDEAD9D2AAE39A49EC99BECE /* RPEntertainmentDomain-Info.plist */,
-				6ABDF8375E818F0CB6F5CF79DE68AC73 /* RPEntertainmentDomain-prefix.pch */,
-				A52D9C29E564887090D24290AD200D11 /* RPEntertainmentDomain-umbrella.h */,
+				109F11044FDA6EF7C5CACFE2E883AC5D /* ReachabilitySwift.modulemap */,
+				B8D09C6F5A26E5D6A20B0674C567BFE9 /* ReachabilitySwift.xcconfig */,
+				34BD322DB1917DC20B36173BCFE5C801 /* ReachabilitySwift-dummy.m */,
+				55E3D9BC6792E3DA042C8F80D650A111 /* ReachabilitySwift-Info.plist */,
+				B07688174FD6F3207651ECE171D86FC4 /* ReachabilitySwift-prefix.pch */,
+				871681FCF13E7B8E70AF44E0D3B2D3CC /* ReachabilitySwift-umbrella.h */,
 			);
 			name = "Support Files";
-			path = "../Target Support Files/RPEntertainmentDomain";
+			path = "../Target Support Files/ReachabilitySwift";
 			sourceTree = "<group>";
 		};
 		8F56D51AE4A861150AF58A13371F7A1C /* Pods-RPEntertainmentServiceTests */ = {
@@ -406,39 +410,12 @@
 			path = "Target Support Files/Pods-RPEntertainmentServiceTests";
 			sourceTree = "<group>";
 		};
-		A2A911EEDA6E1CAAB06BE009E401A21D /* Pods */ = {
+		9225525352C3727E387DA7050F07CB08 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				AAA98BBB7E7CCC67BBB9F98FC0027DC1 /* GNNetworkServices */,
-				3AADD739E4F33618D80F342C62C11371 /* GNSwissRazor */,
-				65BD3849C5C0DD44DE980E5411BADC4A /* ReachabilitySwift */,
-				3440273472340D992A964B42D4045519 /* RPEntertainmentDomain */,
+				F2BDC7627729C4B69EBA38D71CC7F506 /* GNConfig-Info.plist */,
 			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
-		AAA98BBB7E7CCC67BBB9F98FC0027DC1 /* GNNetworkServices */ = {
-			isa = PBXGroup;
-			children = (
-				4A85B840379996FCEFCB3351CA079243 /* BMPCookie.swift */,
-				300651BAF8CEF7E97F8B8A4FCF3310AA /* GNBaseService.swift */,
-				C7EB61E88ABA9CFD107F350C65A64A25 /* GNBaseServiceDelegate.swift */,
-				7E2B836B8975E7974901BD00F80EE584 /* GNBaseServiceExtension.swift */,
-				C7E5745B5B6DBC60BC9C668B604F51DA /* GNConfigService.swift */,
-				25767AE257AB0A5039FC2B58D802A054 /* GNConnectionServiceDelegate.swift */,
-				2C74967C59596AD869A4764279252316 /* GNConnectionType.swift */,
-				57328DA40358B71869DF20E97985C246 /* GNConnectionTypeExtension.swift */,
-				B176466DD1C87B3102AD22C26DEE59EE /* GNDependencySeriveConfigDependencySeriveConfig.swift */,
-				71016E8623CDC05F25913B4613871DAA /* GNMagicCoreServiceDelegate.swift */,
-				DDD9756CD0A4C1D6504C93173C846A6A /* GNNetworkServices.h */,
-				80F3A12E70427C191FE0D043605F3BE8 /* GNRequestServerType.swift */,
-				639B28B35F3AC02FDDB2D17CBE9149CE /* GNRequestServerTypeExtension.swift */,
-				831C38A7C426D0B13F96D8906C70A5DE /* GNURLSessionService.swift */,
-				DAF890FAB3EDB2240F38279CEAAAA35C /* Resources */,
-				D6E0B48F3AB063136FDECBB3BBE8AE2C /* Support Files */,
-			);
-			name = GNNetworkServices;
-			path = GNNetworkServices;
+			name = Resources;
 			sourceTree = "<group>";
 		};
 		CF1408CF629C7361332E53B88F7BD30C = {
@@ -446,46 +423,63 @@
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
 				4FEF884459AB4E60CB0FE5E34EAD73DE /* Frameworks */,
-				A2A911EEDA6E1CAAB06BE009E401A21D /* Pods */,
+				D0BAAC378DCAE082C464B81B52110667 /* Pods */,
 				2E40D703F06AB8678DAD13342D65B2D0 /* Products */,
 				5056A94C2195EAC193FDEC754433C20E /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		D6E0B48F3AB063136FDECBB3BBE8AE2C /* Support Files */ = {
+		D065A9D4832B721357E11B655BF6ABF7 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				BDD4F12691296E8CF5CA38EA74F46C09 /* GNNetworkServices.modulemap */,
-				D8B938918599349FE87F97ABFEAD1FA4 /* GNNetworkServices.xcconfig */,
-				45135EB49563D905DB8AD7AF3EADC6CF /* GNNetworkServices-dummy.m */,
-				386F342FAB9278A6815D8062924F551C /* GNNetworkServices-Info.plist */,
-				ABCFEC2995D7FF06CF776F9348DAED0B /* GNNetworkServices-prefix.pch */,
-				3D45A25F8CA0D80968AE9AC0611C1150 /* GNNetworkServices-umbrella.h */,
+				3C5BF556800F81D0B1A4F9B9E79AACAC /* GNNetworkServices.modulemap */,
+				AB915BF8326C8649B2504D9B39EB20B8 /* GNNetworkServices.xcconfig */,
+				A2BECFFEBD4F670EAFD2AEB3B5C71CE8 /* GNNetworkServices-dummy.m */,
+				E04E8FF0A5A0FD059C061B457CB98318 /* GNNetworkServices-Info.plist */,
+				F14833DAAA846067F021E01C60F1D54D /* GNNetworkServices-prefix.pch */,
+				8AEBE7D48A4D21744793B75CAC8B5674 /* GNNetworkServices-umbrella.h */,
 			);
 			name = "Support Files";
 			path = "../Target Support Files/GNNetworkServices";
 			sourceTree = "<group>";
 		};
-		DAF890FAB3EDB2240F38279CEAAAA35C /* Resources */ = {
+		D0BAAC378DCAE082C464B81B52110667 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				0A082FB91377F84C505C9E92EE97BFE1 /* GNConfig-Info.plist */,
+				73B351326EF0ACC1408A50D50C76B73C /* GNNetworkServices */,
+				5AE8AC03B15D228106094D4A2D782AD0 /* GNSwissRazor */,
+				743839294345F2D8406D0985CBED2E11 /* ReachabilitySwift */,
+				06C10C05D0ADFB31C849C3F12900E008 /* RPEntertainmentDomain */,
 			);
-			name = Resources;
+			name = Pods;
 			sourceTree = "<group>";
 		};
-		DC5730B5066FB52ECA56080B67CB816A /* Support Files */ = {
+		DC024058912940A4ED9B6AADB715D23C /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				24A6906C59B6502953644CD6A80CBBAE /* ReachabilitySwift.modulemap */,
-				E729830B832AF2D9FF3C59B91848BCAA /* ReachabilitySwift.xcconfig */,
-				84B1B5924E3D155C56C45F80CED74E19 /* ReachabilitySwift-dummy.m */,
-				6B31F5ED3A0B6B0F2916D0B806ACFFDE /* ReachabilitySwift-Info.plist */,
-				B2F518434A0318DD896FB6A23B2AFA89 /* ReachabilitySwift-prefix.pch */,
-				E7E0DCBFF7E3E4E11CBBC0E5F1001B25 /* ReachabilitySwift-umbrella.h */,
+				612435C70DFA4DE3B55C88DEB4FCF0C5 /* RPEntertainmentDomain.modulemap */,
+				90F997805C95464760EFF8BD29F65343 /* RPEntertainmentDomain.xcconfig */,
+				0D1EFEB2B31B3CAF942AA85D7BA0A588 /* RPEntertainmentDomain-dummy.m */,
+				CE1FFBD14F4192448EF63F0FC008AA0B /* RPEntertainmentDomain-Info.plist */,
+				C0E2666A87D8E6CA39A91687E8645103 /* RPEntertainmentDomain-prefix.pch */,
+				434923400CD590720F323AFCF2263C72 /* RPEntertainmentDomain-umbrella.h */,
 			);
 			name = "Support Files";
-			path = "../Target Support Files/ReachabilitySwift";
+			path = "../Target Support Files/RPEntertainmentDomain";
+			sourceTree = "<group>";
+		};
+		ED0356BAF2FD35E8A01B8E462EE937C1 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				2BF278BBA3D4EF11B315C3441F9DE333 /* GNSwissRazor.modulemap */,
+				904FFE458F21F5DFDB2A36088DF09979 /* GNSwissRazor.xcconfig */,
+				085A5A9E9F2D6BA5D85AEFD0AFB4BD55 /* GNSwissRazor-dummy.m */,
+				E40F130110CC6429E4F6E0946A6335D6 /* GNSwissRazor-Info.plist */,
+				6DE636A20F7F77ECCF379BE7BF8E149C /* GNSwissRazor-prefix.pch */,
+				67A8D334164572EAE3B32F1E132BC63B /* GNSwissRazor-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/GNSwissRazor";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -496,6 +490,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				DEEE620178CAEBF83689D470B71A8BA4 /* Pods-RPEntertainmentService-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7CA860AD5A6A9490F3BE342BA2614F2A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B78F7B6C2808F339E6318E201B4ECBB6 /* RPEntertainmentDomain-umbrella.h in Headers */,
+				8DDCCFAF6C221BF40C62D0FBBB29671F /* RPEntertainmentDomain.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -522,15 +525,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				4DBCB44A28B38FAE9BFE4D703FAAEBBF /* Pods-RPEntertainmentServiceTests-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		CA74C734182BE98EE38A1A17A587D54D /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				642BA5220DF21B9B2772958D404EE25F /* RPEntertainmentDomain-umbrella.h in Headers */,
-				1DF8DD86174A7EA5A95FEB1603A2FC4B /* RPEntertainmentDomain.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -588,12 +582,12 @@
 		};
 		20D46A416F12B252E4C986759010264F /* RPEntertainmentDomain */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 500B2C6771E6949F74A6913E7DEF8CCA /* Build configuration list for PBXNativeTarget "RPEntertainmentDomain" */;
+			buildConfigurationList = 682935D640300D75210F97C1EAB7B493 /* Build configuration list for PBXNativeTarget "RPEntertainmentDomain" */;
 			buildPhases = (
-				CA74C734182BE98EE38A1A17A587D54D /* Headers */,
-				08619078285F14FB7A5ABF60FB08C032 /* Sources */,
-				9E8E2EA74EE2376C8DB18F7A0F44409A /* Frameworks */,
-				5431F2C345D7D1F2AE24F4C056B28469 /* Resources */,
+				7CA860AD5A6A9490F3BE342BA2614F2A /* Headers */,
+				33C69565B729223C19BBAB8B420450CB /* Sources */,
+				DE53F1D32F699151D9D23140D6149F21 /* Frameworks */,
+				6C4582C3BC7748AA45CA232F6988C6AB /* Resources */,
 			);
 			buildRules = (
 			);
@@ -717,14 +711,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		5431F2C345D7D1F2AE24F4C056B28469 /* Resources */ = {
+		6A38F71F343599A79186C1297B03960F /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		6A38F71F343599A79186C1297B03960F /* Resources */ = {
+		6C4582C3BC7748AA45CA232F6988C6AB /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -742,15 +736,13 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		08619078285F14FB7A5ABF60FB08C032 /* Sources */ = {
+		33C69565B729223C19BBAB8B420450CB /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				762F342B3FDC830430E91209AD6913E1 /* RPEMovieEntity.swift in Sources */,
-				796A525B64FAF7C52075F0B8C1847126 /* RPEMovieResponseEntity.swift in Sources */,
-				C884E130CA85FAE504EA82B5D1FD5FF8 /* RPEntertainmentDomain-dummy.m in Sources */,
-				75B65AABD39BEB023B121EA38A471A23 /* RPETvEntity.swift in Sources */,
-				2ED576550CD2E43EDD5EC46CFEC79A87 /* RPETvResponseEntity.swift in Sources */,
+				81127482116C7DCC45854882273C9D96 /* RPEMovieModel.swift in Sources */,
+				5AD00A12C9376A2BCDB2FB4CCA9B1725 /* RPEntertainmentDomain-dummy.m in Sources */,
+				7DD5B23228997216C3F132863EF6C7E4 /* RPETvModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -884,7 +876,7 @@
 /* Begin XCBuildConfiguration section */
 		18402887A994AE70F5A55270097632E7 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D8B938918599349FE87F97ABFEAD1FA4 /* GNNetworkServices.xcconfig */;
+			baseConfigurationReference = AB915BF8326C8649B2504D9B39EB20B8 /* GNNetworkServices.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -919,7 +911,7 @@
 		};
 		2FF62546463434C3952049A526DB94A4 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E37D36686948112D7EF8C495C5C58031 /* GNSwissRazor.xcconfig */;
+			baseConfigurationReference = 904FFE458F21F5DFDB2A36088DF09979 /* GNSwissRazor.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -954,7 +946,7 @@
 		};
 		344F6A2B3B772B9C86916328A51EECC1 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E729830B832AF2D9FF3C59B91848BCAA /* ReachabilitySwift.xcconfig */;
+			baseConfigurationReference = B8D09C6F5A26E5D6A20B0674C567BFE9 /* ReachabilitySwift.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -987,44 +979,9 @@
 			};
 			name = Debug;
 		};
-		616F3EFAEC67613290BA48D82A755F0F /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = F9DDA9D895F23E9D47EE77262883EC96 /* RPEntertainmentDomain.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/RPEntertainmentDomain/RPEntertainmentDomain-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/RPEntertainmentDomain/RPEntertainmentDomain-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MODULEMAP_FILE = "Target Support Files/RPEntertainmentDomain/RPEntertainmentDomain.modulemap";
-				PRODUCT_MODULE_NAME = RPEntertainmentDomain;
-				PRODUCT_NAME = RPEntertainmentDomain;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.0.1;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
 		6E8ABE496271D27CB7542B6F6211C7F6 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D8B938918599349FE87F97ABFEAD1FA4 /* GNNetworkServices.xcconfig */;
+			baseConfigurationReference = AB915BF8326C8649B2504D9B39EB20B8 /* GNNetworkServices.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -1115,6 +1072,42 @@
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		90C7BDE9CAC07D1E6EC19253E1F215ED /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 90F997805C95464760EFF8BD29F65343 /* RPEntertainmentDomain.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/RPEntertainmentDomain/RPEntertainmentDomain-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/RPEntertainmentDomain/RPEntertainmentDomain-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/RPEntertainmentDomain/RPEntertainmentDomain.modulemap";
+				PRODUCT_MODULE_NAME = RPEntertainmentDomain;
+				PRODUCT_NAME = RPEntertainmentDomain;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0.1;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
 		};
@@ -1259,7 +1252,7 @@
 		};
 		9DDF9EE6B6D28D552991BE86BCA50526 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E729830B832AF2D9FF3C59B91848BCAA /* ReachabilitySwift.xcconfig */;
+			baseConfigurationReference = B8D09C6F5A26E5D6A20B0674C567BFE9 /* ReachabilitySwift.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -1295,7 +1288,7 @@
 		};
 		B19D47E1F8518DD72E4C83B4CBB8FD84 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E37D36686948112D7EF8C495C5C58031 /* GNSwissRazor.xcconfig */;
+			baseConfigurationReference = 904FFE458F21F5DFDB2A36088DF09979 /* GNSwissRazor.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -1367,9 +1360,9 @@
 			};
 			name = Release;
 		};
-		E20AC8687F48C9C2EBADE2EA3BECE05F /* Release */ = {
+		F9293A22340607BEFB80C03531B34B95 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F9DDA9D895F23E9D47EE77262883EC96 /* RPEntertainmentDomain.xcconfig */;
+			baseConfigurationReference = 90F997805C95464760EFF8BD29F65343 /* RPEntertainmentDomain.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -1397,11 +1390,10 @@
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				SWIFT_VERSION = 5.0.1;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Release;
+			name = Debug;
 		};
 		F929F705B500132C149E84A20C5CAC1A /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -1452,15 +1444,6 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		500B2C6771E6949F74A6913E7DEF8CCA /* Build configuration list for PBXNativeTarget "RPEntertainmentDomain" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				616F3EFAEC67613290BA48D82A755F0F /* Debug */,
-				E20AC8687F48C9C2EBADE2EA3BECE05F /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		5AC3CCA8F89E5E6ACA6F20978B2A52DE /* Build configuration list for PBXNativeTarget "Pods-RPEntertainmentService" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -1475,6 +1458,15 @@
 			buildConfigurations = (
 				18402887A994AE70F5A55270097632E7 /* Debug */,
 				6E8ABE496271D27CB7542B6F6211C7F6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		682935D640300D75210F97C1EAB7B493 /* Build configuration list for PBXNativeTarget "RPEntertainmentDomain" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F9293A22340607BEFB80C03531B34B95 /* Debug */,
+				90C7BDE9CAC07D1E6EC19253E1F215ED /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

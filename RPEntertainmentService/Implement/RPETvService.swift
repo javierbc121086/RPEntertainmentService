@@ -18,7 +18,7 @@ import RPEntertainmentDomain
  valida si la peticion al webservice **TV**, es satisfactoria
  */
 public protocol RPETvServiceDelegate: RPEBaseServiceDelegate {
-    func dataResponseService(response: RPETvResponseEntity, type: RPEHttpRequestType)
+    func dataResponseService(response: [RPETvModel], type: RPEHttpRequestType)
 }
 
 /**
@@ -48,8 +48,11 @@ public class RPETvService: RPEBaseService {
             
             if let theJSONData = try? JSONSerialization.data(withJSONObject: rawDic, options: []) {
                 let decoded = try decoder.decode(RPETvResponseEntity.self, from: theJSONData)
+                var list: [RPETvModel] = []
+                decoded.results.forEach { list.append(RPETvEntityModelConverter.entityToModel(entity: $0)) }
+                
                 self.loginServiceDelegate?.dataResponseService(
-                        response: decoded,
+                        response: list,
                         type: RPEHttpRequestType(rawValue: uniqueIdentifierFlow) ?? RPEHttpRequestType.NONE
                 )
             }

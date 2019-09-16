@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Scheme
+   version = "1.3">
+   <BuildAction>
+      <BuildActionEntries>
+         <BuildActionEntry
+            buildForTesting = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "12B993C62325CAAF006A7038"
+               BuildableName = "RPEntertainmentServiceTests.xctest"
+               BlueprintName = "RPEntertainmentServiceTests"
+               ReferencedContainer = "container:RPEntertainmentService.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+      </BuildActionEntries>
+   </BuildAction>
+   <TestAction
+      buildConfiguration = "Debug">
+      <Testables>
+         <TestableReference>
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "12B993C62325CAAF006A7038"
+               BuildableName = "RPEntertainmentServiceTests.xctest"
+               BlueprintName = "RPEntertainmentServiceTests"
+               ReferencedContainer = "container:RPEntertainmentService.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
+      </Testables>
+   </TestAction>
+   <LaunchAction
+      useCustomWorkingDirectory = "NO"
+      allowLocationSimulation = "YES">
+   </LaunchAction>
+</Scheme>

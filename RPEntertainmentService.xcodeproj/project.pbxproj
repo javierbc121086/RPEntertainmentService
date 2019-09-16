@@ -10,15 +10,20 @@
 		1019B1736320177C0A258DFF /* Pods_RPEntertainmentServiceTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57EF471E05F5883B818349B1 /* Pods_RPEntertainmentServiceTests.framework */; };
 		12B993C82325CAAF006A7038 /* RPEntertainmentService.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 12B993BE2325CAAF006A7038 /* RPEntertainmentService.framework */; };
 		12B993CF2325CAAF006A7038 /* RPEntertainmentService.h in Headers */ = {isa = PBXBuildFile; fileRef = 12B993C12325CAAF006A7038 /* RPEntertainmentService.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		12DB5D38233023D40064FCBC /* RPEMovieEntityModelConverter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12DB5D37233023D40064FCBC /* RPEMovieEntityModelConverter.swift */; };
 		12E551352326C830002DAA64 /* RPETvService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12E551342326C830002DAA64 /* RPETvService.swift */; };
 		12E551372326C870002DAA64 /* RPETvServiceTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12E551362326C870002DAA64 /* RPETvServiceTest.swift */; };
 		12ED73832325D31300163467 /* RPEServiceConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12ED73822325D31300163467 /* RPEServiceConfig.swift */; };
-		12ED73852325D3FC00163467 /* RPEHttpRequestType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12ED73842325D3FC00163467 /* RPEHttpRequestType.swift */; };
 		12ED73872325D44900163467 /* RPEBaseService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12ED73862325D44900163467 /* RPEBaseService.swift */; };
 		12ED738F2325D6E100163467 /* RPEHelperTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12ED738E2325D6E100163467 /* RPEHelperTest.swift */; };
 		12ED73912325D81A00163467 /* RPELoginMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12ED73902325D81A00163467 /* RPELoginMock.swift */; };
 		12ED73932325E29300163467 /* RPEMovieService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12ED73922325E29300163467 /* RPEMovieService.swift */; };
 		12ED73952325E31800163467 /* RPEMovieServiceTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12ED73942325E31800163467 /* RPEMovieServiceTest.swift */; };
+		450C32874F74FA5BC74792A4 /* RPETvEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 450C307B65138195337B4E70 /* RPETvEntity.swift */; };
+		450C367548646F5C131B4B4C /* RPEMovieEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 450C3EA9E94E3DB4F01CC1AC /* RPEMovieEntity.swift */; };
+		450C375C0831680511A0D41C /* RPETvEntityModelConverter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 450C33FAC8BBD8BAFAE7FE07 /* RPETvEntityModelConverter.swift */; };
+		450C3CDFB067EAA7E4AA4A6C /* RPEMovieResponseEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 450C3FD70B4FDABA1F27D497 /* RPEMovieResponseEntity.swift */; };
+		450C3FAA79246904CA20FBFC /* RPETvResponseEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 450C3B7DDB076F2096A43ABA /* RPETvResponseEntity.swift */; };
 		74FDB6E02AE8F185E5AE495A /* Pods_RPEntertainmentService.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE25D20EA5838B84E9B04525 /* Pods_RPEntertainmentService.framework */; };
 /* End PBXBuildFile section */
 
@@ -38,16 +43,21 @@
 		12B993C22325CAAF006A7038 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		12B993C72325CAAF006A7038 /* RPEntertainmentServiceTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RPEntertainmentServiceTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		12B993CE2325CAAF006A7038 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		12DB5D37233023D40064FCBC /* RPEMovieEntityModelConverter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RPEMovieEntityModelConverter.swift; sourceTree = "<group>"; };
 		12E551342326C830002DAA64 /* RPETvService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RPETvService.swift; sourceTree = "<group>"; };
 		12E551362326C870002DAA64 /* RPETvServiceTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RPETvServiceTest.swift; sourceTree = "<group>"; };
 		12ED73822325D31300163467 /* RPEServiceConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RPEServiceConfig.swift; sourceTree = "<group>"; };
-		12ED73842325D3FC00163467 /* RPEHttpRequestType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RPEHttpRequestType.swift; sourceTree = "<group>"; };
 		12ED73862325D44900163467 /* RPEBaseService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RPEBaseService.swift; sourceTree = "<group>"; };
 		12ED738E2325D6E100163467 /* RPEHelperTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RPEHelperTest.swift; sourceTree = "<group>"; };
 		12ED73902325D81A00163467 /* RPELoginMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RPELoginMock.swift; sourceTree = "<group>"; };
 		12ED73922325E29300163467 /* RPEMovieService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RPEMovieService.swift; sourceTree = "<group>"; };
 		12ED73942325E31800163467 /* RPEMovieServiceTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RPEMovieServiceTest.swift; sourceTree = "<group>"; };
 		200AFC6CE1E9198602FC4E63 /* Pods-RPEntertainmentServiceTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RPEntertainmentServiceTests.debug.xcconfig"; path = "Target Support Files/Pods-RPEntertainmentServiceTests/Pods-RPEntertainmentServiceTests.debug.xcconfig"; sourceTree = "<group>"; };
+		450C307B65138195337B4E70 /* RPETvEntity.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RPETvEntity.swift; sourceTree = "<group>"; };
+		450C33FAC8BBD8BAFAE7FE07 /* RPETvEntityModelConverter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RPETvEntityModelConverter.swift; sourceTree = "<group>"; };
+		450C3B7DDB076F2096A43ABA /* RPETvResponseEntity.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RPETvResponseEntity.swift; sourceTree = "<group>"; };
+		450C3EA9E94E3DB4F01CC1AC /* RPEMovieEntity.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RPEMovieEntity.swift; sourceTree = "<group>"; };
+		450C3FD70B4FDABA1F27D497 /* RPEMovieResponseEntity.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RPEMovieResponseEntity.swift; sourceTree = "<group>"; };
 		57EF471E05F5883B818349B1 /* Pods_RPEntertainmentServiceTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RPEntertainmentServiceTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		702F613D9994BDDD7D589C40 /* Pods-RPEntertainmentService.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RPEntertainmentService.debug.xcconfig"; path = "Target Support Files/Pods-RPEntertainmentService/Pods-RPEntertainmentService.debug.xcconfig"; sourceTree = "<group>"; };
 		85B59A60AD8ADF192E8DE5C3 /* Pods-RPEntertainmentService.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RPEntertainmentService.release.xcconfig"; path = "Target Support Files/Pods-RPEntertainmentService/Pods-RPEntertainmentService.release.xcconfig"; sourceTree = "<group>"; };
@@ -100,7 +110,8 @@
 			isa = PBXGroup;
 			children = (
 				12ED737F2325D2B500163467 /* Config */,
-				12ED73802325D2C000163467 /* Type */,
+				450C38CA488DBF175E7D8AF5 /* Entity */,
+				450C3DBC3F7E77659A01EB7B /* Converter */,
 				12ED73812325D2C900163467 /* Implement */,
 				12B993C12325CAAF006A7038 /* RPEntertainmentService.h */,
 				12B993C22325CAAF006A7038 /* Info.plist */,
@@ -128,14 +139,6 @@
 			path = Config;
 			sourceTree = "<group>";
 		};
-		12ED73802325D2C000163467 /* Type */ = {
-			isa = PBXGroup;
-			children = (
-				12ED73842325D3FC00163467 /* RPEHttpRequestType.swift */,
-			);
-			path = Type;
-			sourceTree = "<group>";
-		};
 		12ED73812325D2C900163467 /* Implement */ = {
 			isa = PBXGroup;
 			children = (
@@ -160,6 +163,34 @@
 				12ED73902325D81A00163467 /* RPELoginMock.swift */,
 			);
 			path = Mock;
+			sourceTree = "<group>";
+		};
+		450C38CA488DBF175E7D8AF5 /* Entity */ = {
+			isa = PBXGroup;
+			children = (
+				450C3E696D881844EC397C93 /* Response */,
+				450C307B65138195337B4E70 /* RPETvEntity.swift */,
+				450C3EA9E94E3DB4F01CC1AC /* RPEMovieEntity.swift */,
+			);
+			path = Entity;
+			sourceTree = "<group>";
+		};
+		450C3DBC3F7E77659A01EB7B /* Converter */ = {
+			isa = PBXGroup;
+			children = (
+				450C33FAC8BBD8BAFAE7FE07 /* RPETvEntityModelConverter.swift */,
+				12DB5D37233023D40064FCBC /* RPEMovieEntityModelConverter.swift */,
+			);
+			path = Converter;
+			sourceTree = "<group>";
+		};
+		450C3E696D881844EC397C93 /* Response */ = {
+			isa = PBXGroup;
+			children = (
+				450C3B7DDB076F2096A43ABA /* RPETvResponseEntity.swift */,
+				450C3FD70B4FDABA1F27D497 /* RPEMovieResponseEntity.swift */,
+			);
+			path = Response;
 			sourceTree = "<group>";
 		};
 		5BC8F1ACC77F39D990D478B7 /* Pods */ = {
@@ -260,6 +291,7 @@
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				Base,
 			);
 			mainGroup = 12B993B42325CAAF006A7038;
 			productRefGroup = 12B993BF2325CAAF006A7038 /* Products */;
@@ -360,9 +392,14 @@
 			files = (
 				12ED73832325D31300163467 /* RPEServiceConfig.swift in Sources */,
 				12E551352326C830002DAA64 /* RPETvService.swift in Sources */,
-				12ED73852325D3FC00163467 /* RPEHttpRequestType.swift in Sources */,
 				12ED73872325D44900163467 /* RPEBaseService.swift in Sources */,
 				12ED73932325E29300163467 /* RPEMovieService.swift in Sources */,
+				450C3FAA79246904CA20FBFC /* RPETvResponseEntity.swift in Sources */,
+				12DB5D38233023D40064FCBC /* RPEMovieEntityModelConverter.swift in Sources */,
+				450C3CDFB067EAA7E4AA4A6C /* RPEMovieResponseEntity.swift in Sources */,
+				450C32874F74FA5BC74792A4 /* RPETvEntity.swift in Sources */,
+				450C367548646F5C131B4B4C /* RPEMovieEntity.swift in Sources */,
+				450C375C0831680511A0D41C /* RPETvEntityModelConverter.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

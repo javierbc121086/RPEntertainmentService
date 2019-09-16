@@ -139,14 +139,14 @@ class RPEMovieServiceTest: XCTestCase, RPEMovieServiceDelegate {
     /**********************
      ** RESPONSE SUCCESS **
      **********************/
-    func dataResponseService(response: RPEMovieResponseEntity, type: RPEHttpRequestType) {
+    func dataResponseService(response: [RPEMovieModel], type: RPEHttpRequestType) {
         _expectation?.fulfill()
             
         if _isFailed {
             XCTFail("\n::: Error: Service Register should fail !!")
         }
         else {
-            XCTAssertTrue(response.results.isNotEmpty)
+            XCTAssertTrue(response.isNotEmpty)
         }
     }
     

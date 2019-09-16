@@ -6,7 +6,7 @@
 //  Copyright © 2019 gipsyhub. All rights reserved.
 //
 
-public struct  RPETvEntity: Codable {
+public struct RPETvEntity: Codable {
     public var originalName: String
     public var genreIds: [Int]
     public var name: String

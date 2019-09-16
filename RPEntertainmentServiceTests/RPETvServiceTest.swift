@@ -149,14 +149,14 @@ class RPETvServiceTest: XCTestCase, RPETvServiceDelegate {
     /**********************
      ** RESPONSE SUCCESS **
      **********************/
-    func dataResponseService(response: RPETvResponseEntity, type: RPEHttpRequestType) {
+    func dataResponseService(response: [RPETvModel], type: RPEHttpRequestType) {
         _expectation?.fulfill()
         
         if _isFailed {
             XCTFail("\n::: Error: Service Register should fail !!")
         }
         else {
-            XCTAssertTrue(response.results.isNotEmpty)
+            XCTAssertTrue(response.isNotEmpty)
         }
     }
     

@@ -6,7 +6,7 @@
 //  Copyright © 2019 gipsyhub. All rights reserved.
 //
 
-public struct RPEMovieEntity: Codable {
+struct RPEMovieEntity: Codable {
     var popularity: Double
     var voteCount: Int
     var video: Bool
